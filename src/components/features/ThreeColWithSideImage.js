@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
+import Fade from 'react-reveal/Fade';
 //eslint-disable-next-line
 import { css } from "styled-components/macro";
 import { SectionHeading, Subheading as SubheadingBase } from "components/misc/Headings.js";
@@ -87,7 +88,10 @@ export default ({ cards = null, heading = "Student Activities Committee 2021-22"
         <Heading>{heading}</Heading>
         {description && <Description>{description}</Description>}
         <VerticalSpacer />
+        <Fade up duration={3000}>
+
         <Saccards/>
+        </Fade>
       </ThreeColumnContainer>
       <DecoratorBlob />
     </Container>

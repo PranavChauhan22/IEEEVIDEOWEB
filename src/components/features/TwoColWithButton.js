@@ -77,8 +77,10 @@ export default ({
       
       <TwoColumn>
         <div className="alpl">
+<Fade>
 
   <Toggle/>
+</Fade>
         </div>
       
 

@@ -1,6 +1,7 @@
 import "slick-carousel/slick/slick.css";
 import React, { useState } from "react";
 import Slider from "react-slick";
+import Fade from "react-reveal/Fade";
 import tw from "twin.macro";
 import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
@@ -15,6 +16,7 @@ import img3 from "../features/gridimages/Meenu\ Khurana_Chandigarsh_sub-sec.jpeg
 import img2 from "../features/gridimages/Rashmi\ Agarwal.jpeg"
 import img4 from "../features/gridimages/Mahesh_jangid.jpeg"
 import img5 from "../features/gridimages/Archit\ goswami.jpeg"
+import img10 from "../features/OnlineReview.gif"
 const Row = tw.div`flex flex-col md:flex-row justify-between items-center`;
 const Column = tw.div`w-full max-w-md mx-auto md:max-w-none md:mx-0`;
 const ImageColumn = tw(Column)`md:w-5/12 xl:w-6/12 flex-shrink-0 relative`;
@@ -140,9 +142,10 @@ export default ({
     <Container>
       <ContentWithPaddingXl>
         <Row>
-          <ImageColumn>
-            <Image src={imageSrc} imageBorder={imageBorder} imageShadow={imageShadow} imageRounded={imageRounded} />
-          </ImageColumn>
+          <Fade up duration={1000}>
+
+          <img src={img10}/>
+          </Fade>
           <TextColumn textOnLeft={textOnLeft}>
             <Subheading>{subheading}</Subheading>
             <Heading>{heading}</Heading>

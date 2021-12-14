@@ -6,11 +6,22 @@
     background-size: cover;
     
 }
+
 .crdflex{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     
+}
+.secani{
+    width: 40vw;
+    height: 60vh;
+    margin: auto;
+}
+.headim{
+    width: 60vw;
+    height: 90vh;
+    margin: auto;
 }
 
 

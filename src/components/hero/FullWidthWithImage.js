@@ -1,6 +1,7 @@
 import React from "react";
 import tw from "twin.macro";
-import { Fade } from "react-awesome-reveal";
+import Fade from 'react-reveal/Fade';
+
 import ReactTypingEffect from 'react-typing-effect';
 import { BsInstagram } from 'react-icons/bs';
 import { GrLinkedinOption } from 'react-icons/gr';
@@ -10,7 +11,7 @@ import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
 import Header, { LogoLink, NavLinks, NavLink as NavLinkBase } from "../headers/light.js";
 import img1 from "../components_images/ieeefinalimghome.jpg"
-
+import img11 from "../features/thirdanime.gif"
 const StyledHeader = styled(Header)`
   ${tw`justify-between`}
   ${LogoLink} {
@@ -50,9 +51,7 @@ const Actions = styled.div`
 export default ({
   navLinks = [
     <NavLinks key={1}>
-      <NavLink href="#About">About</NavLink>
-      <NavLink href="#Galleria">Gallery</NavLink>
-      <NavLink href="#Contact">Contact</NavLink>
+
       <NavLink href="#Contact">DSC' 22</NavLink>
       <NavLink href="/Editions">Editions</NavLink>
       <NavLink href="/Events_Display">Events</NavLink>
@@ -99,7 +98,10 @@ export default ({
             </Actions>
           </Content>
         </LeftColumn>
-        <RightColumn></RightColumn>
+        <Fade up duration={3000}>
+
+        <img src={img1} className="headim"/>
+        </Fade>
       </TwoColumn>
     </Container>
   );

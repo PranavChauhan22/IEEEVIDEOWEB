@@ -40,6 +40,7 @@ export default class Toggle extends Component {
                 position: 'absolute',
                 opacity: opacity.to({ range: [0.0, 1.0], output: [0, 1] }),
               }}>
+                {(toggle==0)&&<Textani data={"Mentors"}/>}
                         {(toggle==1)&&
                   <div className="hrflex">
               <div className="crdteam">
