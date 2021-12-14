@@ -76,12 +76,12 @@ export default ({
     <Container>
       
       <TwoColumn>
-        <div className="alpl">
 <Fade>
 
+        <div className="alpl">
   <Toggle/>
-</Fade>
         </div>
+</Fade>
       
 
 
