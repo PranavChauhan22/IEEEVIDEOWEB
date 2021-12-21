@@ -7,7 +7,18 @@ import { SectionHeading, Subheading as SubheadingBase } from "components/misc/He
 import {SectionDescription} from "components/misc/Typography";
 import { ReactComponent as TwitterIcon} from "images/twitter-icon.svg";
 import { ReactComponent as LinkedinIcon} from "images/linkedin-icon.svg";
+import "../features/stylee.css"
 import { ReactComponent as GithubIcon } from "images/github-icon.svg";
+import img1 from "../features/gridimages/Garima\ Patel.jpeg"
+import img2 from "../features/gridimages/J\ Ashwin\ Nair.jpeg"
+import img3 from "../features/gridimages/PiyushKumarSahoo_SSR.jpg"
+import img4 from "../features/gridimages/GaganSingh_SSR\ -\ IEEE\ Delhi\ SAC.jpg"
+import img5 from "../features/gridimages/Sharone_SSR-Chandigarh\ -\ Sharone\ Verma.jpg"
+import img6 from "../features/gridimages/Shambhavi_SSR\ -\ shambhavi\ khanna.JPG"
+import img7 from "../features/gridimages/Pallavi\ -\ Pallavi\ Singh.jpg"
+import img8 from "../features/gridimages/Shubham\ singla_wiecoordinator\ -\ shubham\ purshottam\ singla.jpeg"
+import img9 from "../features/gridimages/khushikathuria_wiecoordinator\ -\ Khushi\ Kathuria.jpeg"
+import img10 from "../features/gridimages/Priti_WIE-Coordinator\ -\ Priti\ Gangwar.jpg"
 
 const HeadingContainer = tw.div``
 const Heading = tw(SectionHeading)``
@@ -43,12 +54,13 @@ const CardLinks = styled.div`
 export default ({
   heading = "Meet These Fine Folks.",
   subheading = "Our Team",
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  description = "",
   cards = [
     {
-      imageSrc: "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=2.95&w=512&h=512&q=80",
-      position: "Founder",
-      name: "Adam Cuppy",
+      imageSrc:img1,
+      position: "Mentor",
+      name: "Garima Patel",
+      name1: "",
       links: [
         {
           url: "https://twitter.com",
@@ -65,9 +77,10 @@ export default ({
       ],
     },
     {
-      imageSrc: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=2.95&w=512&h=512&q=80",
-      position: "Sr. Designer",
-      name: "Charlotte Hale",
+      imageSrc:img2,
+      position: "Mentor",
+      name: "J Ashwin Nair",
+      name1: "",
       links: [
         {
           url: "https://twitter.com",
@@ -84,9 +97,10 @@ export default ({
       ],
     },
     {
-      imageSrc: "https://images.unsplash.com/photo-1517070208541-6ddc4d3efbcb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=2.95&w=512&h=512&q=80",
-      position: "Jr. Designer",
-      name: "Silvester Wize",
+      imageSrc:img3,
+      position: "Section Student Representative",
+      name: "Piyush Kumar Sahoo",
+      name1: "",
       links: [
         {
           url: "https://twitter.com",
@@ -103,9 +117,10 @@ export default ({
       ],
     },
     {
-      imageSrc: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=2.95&w=512&h=512&q=80",
-      position: "Lead Developer",
-      name: "Himali Turn",
+      imageSrc:img4,
+      position: "Section Student Representative",
+      name: "Gagan Singh",
+      name1: "",
       links: [
         {
           url: "https://twitter.com",
@@ -122,9 +137,10 @@ export default ({
       ],
     },
     {
-      imageSrc: "https://images.unsplash.com/photo-1546820389-44d77e1f3b31?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=3.45&w=512&h=512&q=80",
-      position: "Sr. Developer",
-      name: "Troye Sivan",
+      imageSrc:img5,
+      position: "Subsection Student Representative",
+      name: "Sharone Verma",
+      name1: "Chandigarh",
       links: [
         {
           url: "https://twitter.com",
@@ -141,9 +157,10 @@ export default ({
       ],
     },
     {
-      imageSrc: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=3.45&w=512&h=512&q=80",
-      position: "Quality Assurance",
-      name: "Holo Wo",
+      imageSrc:img6,
+      position: "Section Student Representative",
+      name: "Shambhavi khanna",
+      name1: "Rajasthan",
       links: [
         {
           url: "https://twitter.com",
@@ -159,6 +176,90 @@ export default ({
         },
       ],
     },
+    {
+      imageSrc:img7,
+      position: "Women In Engineering",
+      name: "Pallavi Singh",
+      name1: "Lead",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    
+    {
+      imageSrc:img8,
+      position: "Women In Engineering",
+      name: "Shubham Singla",
+      name1: "",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    
+    {
+      imageSrc:img9,
+      position: "Women In Engineering",
+      name: "Khushi Kathuria",
+      name1: "",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    
+    {
+      imageSrc:img10,
+      position: "Women In Engineering",
+      name: "Priti Gangwar",
+      name1: "",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    
   ]
 }) => {
   return (
@@ -172,10 +273,11 @@ export default ({
         <Cards>
           {cards.map((card, index) => (
             <Card key={index}>
-              <CardImage imageSrc={card.imageSrc} />
+              <CardImage className="imgt" imageSrc={card.imageSrc} />
               <CardContent>
                 <span className="position">{card.position}</span>
                 <span className="name">{card.name}</span>
+                <span className="name1">{card.name1}</span>
                 <CardLinks>
                   {card.links.map((link, linkIndex) => (
                     <a key={linkIndex} className="link" href={link.url}>

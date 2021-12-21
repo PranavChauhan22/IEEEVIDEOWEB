@@ -3,6 +3,7 @@ import "styles/globalStyles.css";
 import React from "react";
 import { css } from "styled-components/macro"; //eslint-disable-line
 import "../src/App.css"
+// import { BrowserRouter as Router,Routes, Route, Link } from 'react-router-dom';
 import Dash from "../src/components/features/Dash"
 import Reportpanel from "../src/components/features/Reportpanel"
 /*
@@ -127,6 +128,9 @@ import TwoColumnWithPrimaryBackground from "components/hero/TwoColumnWithPrimary
 import TwoColumnPrimaryBackground from "components/faqs/TwoColumnPrimaryBackground";
 import SimpleContactUs from "components/forms/SimpleContactUs";
 import TwoColumnWithImageAndProfilePictureReview from "components/testimonials/TwoColumnWithImageAndProfilePictureReview";
+import ProfileThreeColGrid from "components/cards/ProfileThreeColGrid";
+import Menufinal from "components/hero/Menufinal";
+import Rout from "Rout";
 // import Events from "components/features/Events";
 // import Events from "components/Events/Events";
 
@@ -137,9 +141,8 @@ export default function App() {
 
   return (
     <div className="app">
-
-    <Router>
-      <Switch>
+                <Router>
+    <Switch>
 <Route path="/" exact>
 
         <FullWidthWithImage/>
@@ -156,8 +159,12 @@ export default function App() {
         <TwoColumnPrimaryBackground/>
         <SimpleFiveColumn/>
 </Route>
+
 <Route path="/Event" exact>
   <Dash/>
+</Route>
+<Route path="/IEEEDELHISSN_TEAM" exact>
+  <ProfileThreeColGrid/>
 </Route>
 <Route path="/Editions" exact>
   <Editions/>
@@ -167,10 +174,10 @@ export default function App() {
 <Route path="/Report" exact>
   <Reportpanel/>
 </Route>
-
       
       </Switch>
     </Router>
+
     </div>
   );
 }

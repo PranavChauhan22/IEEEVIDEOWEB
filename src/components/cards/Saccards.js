@@ -17,10 +17,10 @@ function Saccards() {
       <div class="card__overlay">
         <div class="card__header">
           <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
-          <img class="card__thumb" src={img1} alt="" />
+         
           <div class="card__header-text">
-            <h3 class="card__title">Dr. Rachana Garg</h3>            
-            <span class="card__status">Section Chair and SAC Chair</span>
+            <h2 class="card__title">Prof. Rachana Garg</h2>            
+            <span class="card__status">Section Chair and Student Activities Committee Chair</span>
           </div>
         </div>
         {/* <p class="card__description">Dr. Rachana Garg is currently serving as a Section Chair and SAC Chair at IEEE DELHI SSN.</p> */}
@@ -35,10 +35,10 @@ function Saccards() {
       <div class="card__overlay">
         <div class="card__header">
           <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
-          <img class="card__thumb" src={img3} alt="" />
+  
           <div class="card__header-text">
             <h3 class="card__title">Dr. Meenu Khurana</h3>
-            <span class="card__tagline">SAC Member</span>            
+            <span class="card__status">Student Activities Committee Member</span>            
           </div>
         </div>
         {/* <p class="card__description">Dr. Meenu Khurana is currently serving as a SAC Member at IEEE DELHI SSN</p> */}
@@ -52,10 +52,10 @@ function Saccards() {
       <div class="card__overlay">        
         <div class="card__header">
           <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                 
-          <img class="card__thumb" src={img2} alt="" />
+     
           <div class="card__header-text">
-            <h3 class="card__title">Dr.Rashmi Agarwal</h3>
-            <span class="card__status">SAC Member</span>
+            <h3 class="card__title">Dr. Rashmi Agarwal</h3>
+            <span class="card__status">Student Activities Committee Member</span>
           </div>
         </div>
         {/* <p class="card__description">Dr. Rashmi Agarwal is currently serving as a SAC Member at IEEE DELHI SSN</p> */}
@@ -63,15 +63,15 @@ function Saccards() {
     </a>
   </li>
   <li>
-    <a href="" class="card">
+    <a href="" class="cdcard">
       <img src={img4} class="card__image" alt="" />
       <div class="card__overlay">
         <div class="card__header">
           <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                 
-          <img class="card__thumb" src={img4} alt="" />
+          
           <div class="card__header-text">
             <h3 class="card__title">Dr. Mahesh Jangid</h3>
-            <span class="card__status">SAC Member</span>
+            <span class="card__status">Student Activities Committee Member</span>
           </div>          
         </div>
         {/* <p class="card__description">Dr. Mahesh Jangid is currently serving as a SAC Member at IEEE DELHI SSN</p> */}
@@ -79,15 +79,15 @@ function Saccards() {
     </a>
   </li>    
   <li>
-    <a href="" class="card">
+    <a href="" class="cdcard1">
       <img src={img5} class="card__image" alt="" />
       <div class="card__overlay">
         <div class="card__header">
           <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                 
-          <img class="card__thumb" src={img5} alt="" />
+    
           <div class="card__header-text">
             <h3 class="card__title">Mr. Archit Goswami</h3>
-            <span class="card__status">SAC Member</span>
+            <span class="card__status">Student Activities Committee Member</span>
           </div>          
         </div>
         {/* <p class="card__description">Mr. Archit Goswami is currently serving as a SAC Member at IEEE DELHI SSN</p> */}

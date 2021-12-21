@@ -54,12 +54,12 @@ export default ({
   subheading = "Our Expertise",
   heading = (
     <>
-      Looked & Developed by <span tw="text-blue-500">IEEE DELHI SSN.</span>
+      Designed & Developed by <span tw="text-blue-500">IEEE DELHI SSN.</span>
     </>
   ),
   description = "Teamwork is the ability to work together toward a common vision. The ability to direct individual accomplishments toward organizational objectives. It is the fuel that allows common people to attain uncommon results.",
-  primaryButtonText = "Learn More",
-  primaryButtonUrl = "https://timerse.com",
+  primaryButtonText = "Know the team",
+  primaryButtonUrl = "/IEEEDELHISSN_TEAM",
   imageSrc = TeamIllustrationSrc,
   buttonRounded = true,
   imageRounded = true,

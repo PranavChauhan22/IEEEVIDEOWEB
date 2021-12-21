@@ -9,7 +9,7 @@ import { ReactComponent as LocationIcon } from "feather-icons/dist/icons/map-pin
 import { ReactComponent as StarIcon } from "feather-icons/dist/icons/star.svg";
 import { ReactComponent as ChevronLeftIcon } from "feather-icons/dist/icons/chevron-left.svg";
 import { ReactComponent as ChevronRightIcon } from "feather-icons/dist/icons/chevron-right.svg";
-import im1 from "../components_images/Robo1.JPG"
+import im1 from "../components_images/12.JPG"
 import im2 from "../components_images/cyber1.png"
 import im3 from "../components_images/extreminar1.jpg"
 const Container = tw.div`relative`;
@@ -93,7 +93,7 @@ export default () => {
   /* Change this according to your needs */
   const cards = [
     {
-      imageSrc: im1,
+      imageSrc: im2,
       title: "Cyber Innovations in Defence",
       description: `On the occasion of Independence Day, the enthusiastic team of the IEEE Delhi Section organized an  educative webinar titled: "C.I.D. - Cyber Innovations in Defence" to enlighten students regarding the scope of Cyber Technology and Warfare in the Indian Defence Sector..`,
       locationText: "Rome, Italy",
@@ -101,7 +101,7 @@ export default () => {
       rating: "4.8",
     },
     {
-      imageSrc: im2,
+      imageSrc: im3,
       title: " IEEEXtreme 15.0",
       description: "An enlightening session 'Xtreminar' for all the aspiring and enthusiastic Competitive Programmers to help them answer all the queries and provide them with a chance to interact with the exemplary teams from IEEEXtreme 14.0 and learn from their experiences. .",
       locationText: "Ibiza, Spain",
@@ -109,7 +109,7 @@ export default () => {
       rating: 4.9,
     },
     {
-      imageSrc: im3,
+      imageSrc: im1,
       title: "Robotronics",
       description: "IEEE Delhi Section in collaboration with IEEE YMCA Student Branch initiated Robotronics, an e-hands-on workshop that enabled the students to get in-depth insights about the practical design of a Light Following Robot..",
       locationText: "Palo Alto, CA",
@@ -117,7 +117,7 @@ export default () => {
       rating: "5.0",
     },
     {
-      imageSrc: im2,
+      imageSrc: im3,
       title: " IEEEXtreme 15.0",
       description: "An enlightening session 'Xtreminar' for all the aspiring and enthusiastic Competitive Programmers to help them answer all the queries and provide them with a chance to interact with the exemplary teams from IEEEXtreme 14.0 and learn from their experiences. .",
       locationText: "Ibiza, Spain",

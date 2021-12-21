@@ -98,16 +98,18 @@ export default () => {
     {
       imageSrc: im1,
       title: "IEEE Region-10 Young Professionals REVOL 2021",
-      description: `Mr. Ritvik Bansal from IEEE Delhi Section was awarded the IEEE Region-10 YP REVOL 2021 for his extraordinary accomplishment, commitment, and dedication towards society being an IEEE member. The REVOL program was introduced to bring a revolution by recognizing vibrant volunteers across all the sections in Region-10.`,
-      locationText: "Mr. Ritvik Bansal  -  IEEE Delhi Section",
+      description: `Mr. Ritvik Bansal from IEEE NSUT was awarded the IEEE Region-10 YP REVOL 2021 for his extraordinary accomplishment, commitment, and dedication towards society being an IEEE member. The REVOL program was introduced to bring a revolution by recognizing vibrant volunteers across all the sections in Region-10.`,
+      locationText: "Mr. Ritvik Bansal",
+      locationText1: "IEEE NSUT",
       pricingText: "USD 39/Day",
       rating: "4.8",
     },
     {
       imageSrc: im2,
       title: " Richard E. Merwin Scholarship - Spring 2021",
-      description: "Ms Shatakshi Singh from IEEE MUST merit the transcendent accomplishment of Richard E. Merwin Scholarship - Spring 2021 for her unbounded contribution and volunteerism towards IEEE. The IEEE Computer Society offers Richard E. Merwin Scholarships to recognize and reward active student volunteer leaders in IEEE Student Branches or IEEE Computer Society Student Branch Chapters .",
-      locationText: "Ms Shatakshi Singh - IEEE MUST",
+      description: "Ms. Shatakshi Singh from IEEE MUST merit the transcendent accomplishment of Richard E. Merwin Scholarship - Spring 2021 for her unbounded contribution and volunteerism towards IEEE. The IEEE Computer Society offers Richard E. Merwin Scholarships to recognize and reward active student volunteer leaders in IEEE Student Branches or IEEE Computer Society Student Branch Chapters .",
+      locationText: "Ms. Shatakshi Singh",
+      locationText1: "IEEE MUST",
       pricingText: "USD 50/Day",
       rating: 4.9,
       
@@ -116,9 +118,10 @@ export default () => {
     },
     {
       imageSrc: im3,
-      title: "IEEE Region-10 WIE Outstanding Volunteer Award 2021",
-      description: "Mr. Virendra Pratap Singh from IEEE NCU won the IEEE Region-10 WIE Outstanding Volunteer Award  for the year 2021 for his distinguished achievements. This award has been established to recognize individuals who have exhibited exemplary and substantive leadership of an extraordinary nature in implementing activities that support the visions of R-10 WIE.",
-      locationText: "Mr. Virendra Pratap Singh - IEEE NCU",
+      title: "IEEE Region-10 WIE Outstanding Student Volunteer Award 2021",
+      description: "Mr. Virendra Pratap Singh from IEEE NCU won the IEEE Region-10 WIE Outstanding Student Volunteer Award  for the year 2021 for his distinguished achievements. This award has been established to recognize individuals who have exhibited exemplary and substantive leadership of an extraordinary nature in implementing activities that support the visions of R-10 WIE.",
+      locationText: "Mr. Virendra Pratap Singh",
+      locationText1: "IEEE NCU",
       pricingText: "USD 19/Day",
       rating: "5.0"
 
@@ -127,7 +130,8 @@ export default () => {
       imageSrc: im4,
       title: "IEEE Region-10 Student Research Paper Contest 2021 - WIE Best Paper Award",
       description: "Mr. Ritwik Ranjan from IEEE Delhi Technological University, with the endorsement and constant support of Prof Jeebananda Panda, emerged as the winner of the Women in Engineering Best Paper Award in the IEEE R-10 Student Research Paper Contest 2021 for their research paper titled - Emoji Prediction using LSTM and Naive Bayes.The award is given in recognition of his exemplary involvement in written communication skills and reporting novel and original research results to the science & technology community.",
-      locationText: "Mr. Ritwik Ranjan - IEEE DTU",
+      locationText: "Mr. Ritwik Ranjan",
+      locationText1: "IEEE DTU",
       pricingText: "USD 50/Day",
       rating: 4.9,
     },
@@ -135,7 +139,8 @@ export default () => {
       imageSrc: im5,
       title: "IEEE Region-10 Student Research Paper Contest 2021 - WIE Best Paper Award",
       description: "Ms. Palak Yadav from IEEE Delhi Technological University, with the endorsement and constant support of Prof Jeebananda Panda, emerged as the winner of the Women in Engineering Best Paper Award in the IEEE R-10 Student Research Paper Contest 2021 for their research paper titled - Emoji Prediction using LSTM and Naive Bayes.The award is given in recognition of her exemplary involvement in written communication skills and reporting novel and original research results to the science & technology community.",
-      locationText: "Ms. Palak Yadav - IEEE DTU",
+      locationText: "Ms. Palak Yadav",
+      locationText1: "IEEE DTU",
       pricingText: "USD 50/Day",
       rating: 4.9,
     },
@@ -163,6 +168,10 @@ export default () => {
                 </TitleReviewContainer>
                 <SecondaryInfoContainer>
                  <h3 className="awardtxt">{card.locationText}</h3> 
+                 
+                </SecondaryInfoContainer>
+                <SecondaryInfoContainer>
+                 <h3 className="awardtxt">{card.locationText1}</h3> 
                  
                 </SecondaryInfoContainer>
                 <Description>{card.description}</Description>

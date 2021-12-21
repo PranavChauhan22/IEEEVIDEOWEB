@@ -5,3 +5,12 @@
     height: 100vh;
     overflow-y: hidden;
 }
+.rephead{
+    text-align: center;
+    color: rgb(23, 121, 227);
+    font-size: 40px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.221);
+    width: 15vw;
+    margin: auto;
+
+}

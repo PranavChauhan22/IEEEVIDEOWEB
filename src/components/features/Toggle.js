@@ -57,7 +57,7 @@ export default class Toggle extends Component {
            </div>
            }
                         {(toggle==2)&&
-                         <Textani data={"Section Student Representative"}/>
+                         <Textani data={"Section Student Representatives"}/>
                         }
                         {(toggle==3)&&
                    <div className="hrflex">
@@ -73,7 +73,7 @@ export default class Toggle extends Component {
                    </div>
                    </div>}
                    {(toggle==4)&&
-                         <Textani data={"Subection Student Representative"}/>
+                         <Textani data={"Subsection Student Representative"}/>
                         }
                         {(toggle==5)&&
                   <div className="hrflex">
@@ -108,7 +108,7 @@ export default class Toggle extends Component {
                    </div>
                    <div className="crdteam">
                      <div className="igg19" />
-                     <h4 className="crdtext crdtext1">Khushu Kathuria</h4>
+                     <h4 className="crdtext crdtext1">Khushi Kathuria</h4>
                      {/* <h4 className="crdtext crdtext2">WIE</h4> */}
                     
                    </div>
@@ -125,7 +125,7 @@ export default class Toggle extends Component {
                     <div className="hrflex">
                     <div className="crdteam">
                       <div className="igg22" />
-                      <h4 className="crdtext crdtext1">Monalinka Kapoor</h4>
+                      <h4 className="crdtext crdtext1">Monalika Kapoor</h4>
                       <h6 className="bluebadge1">Lead</h6>
                       {/* <h4 className="crdtext crdtext2">NSM</h4> */}
                     </div>

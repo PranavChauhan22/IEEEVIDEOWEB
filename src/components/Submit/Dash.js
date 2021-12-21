@@ -1,53 +1,104 @@
-import React from 'react'
-import "./Dash.css"
-function Dash(props) {
-    const {
-        email,password,setemail,setpassword,handleLogin,
-        handleSignup,
-        hasaccount,
-        sethasaccount,
-        emailerror,
-        passworderror
-    }=props;
-    
+import React from 'react';
+import {useState,useEffect} from "react";
+import Fire from './Fire';
+import Dash from "./Dash"
+import Dashboard from "./Dashboard"
+import "./Login.css"
+function Login() {
+    const [user, setuser] = useState('')
+    const [email, setemail] = useState('')
+    const [password, setpassword] = useState('')
+    const [emailerror, setemailerror] = useState('')
+    const [passworderror, setpassworderror] = useState('')
+    const [hasaccount, sethasaccount] = useState(false)
+    const clearInputs=()=>{
+        setemail('');
+        setpassword('');
+    }
+    const clearErrors=()=>{
+        setemailerror('');
+        setpassworderror('');
+    }
+    const handleLogin=()=>{
+        clearErrors();
+        Fire
+            .auth()
+            .signInWithEmailAndPassword(email,password)
+            .catch((err)=>{
+                switch(err.code){
+                    case "auth/invalid-email":
+                    case "auth/user-disabled":
+                    case "auth/user-not-found":
+                        setemailerror(err.message);
+                        break;
+                    case "auth/wrong-password":
+                        setpassworderror(err.message);
+                        break;
+                }
+            })
+            
+            
+
+            
+    };
+    const handleSignup=()=>{
+        clearErrors();
+        Fire
+            .auth()
+            .createUserWithEmailAndPassword(email,password)
+            .catch((err)=>{
+                switch(err.code){
+                    case "auth/email-already-in-use":
+                    case "auth/invalid-email":
+                        setemailerror(err.message);
+                        break;
+                    case "auth/weak-password":
+                        setpassworderror(err.message);
+                        break;
+                }
+            })
+            
+            
+
+            
+    };
+    const handleLogout=()=>{
+Fire.auth().signOut();
+    };
+    const authListener=()=>{
+        Fire.auth().onAuthStateChanged((user)=>{
+            if(user){
+                clearInputs();
+                setuser(user);
+            }else{
+                setuser('');
+            }
+        });
+    };
+    useEffect(() => {
+        
+        authListener();
+    }, [])
     return (
-        <div classNameName="login">
-<div className="container-login">
-  <div className="left-login">
-    <div className="header-login">
-      <h2 className="animation-login a1-login">Welcome Back</h2>
-      <h4 className="animation-login a2-login">Log in to your account using email and password</h4>
-    </div>
-    <div className="form-login">
-                     <input type="email"
-                className="form-field-login animation-login a3-login"
-                autoFocus
-                required
-                value={email}
-                onChange={(e)=>setemail(e.target.value)}
-                placeholder="Email Address"
-                />
-                <p className="errorMsg">{emailerror}</p>
-               
-                <input type="password"
-                className="form-field-login animation-login a4-login"
-                autoFocus
-                placeholder="Password"
-                required
-                value={password}
-                onChange={(e)=>setpassword(e.target.value)}
-                />
-                   <p classNameName="errorMsg">{passworderror}</p>
-
-           <button className="animation-login a6-login" onClick={handleLogin}>Sign in</button>
-    </div>
-  </div>
-  <div className="right-login"></div>
-</div>
-
+            
+        <div>
+            {(user)?(
+                <Dashboard handleLogout={handleLogout}/>
+            ):(
+                <Dash email={email}
+            password={password}
+            setemail={setemail}
+            setpassword={setpassword}
+            handleLogin={handleLogin}
+            handleSignup={handleSignup}
+            hasaccount={hasaccount}
+            sethasaccount={sethasaccount}
+            emailerror={emailerror}
+            passworderror={passworderror}/>
+            )}
         </div>
-
     )
 }
 
-export default Dash
+export default Login
+

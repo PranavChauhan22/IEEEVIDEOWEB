@@ -12,10 +12,10 @@ import { ReactComponent as StarIconBase } from "images/star-icon.svg";
 import { ReactComponent as ArrowLeftIcon } from "images/arrow-left-3-icon.svg";
 import { ReactComponent as ArrowRightIcon } from "images/arrow-right-3-icon.svg";
 import img1 from "../features/gridimages/Rachana_ma\'am.jpg"
-import img3 from "../features/gridimages/Meenu\ Khurana_Chandigarsh_sub-sec.jpeg"
-import img2 from "../features/gridimages/Rashmi\ Agarwal.jpeg"
-import img4 from "../features/gridimages/Mahesh_jangid.jpeg"
-import img5 from "../features/gridimages/Archit\ goswami.jpeg"
+import img3 from "../components_images/ansari.jpeg"
+import img2 from "../components_images/prernagaur.jpeg"
+import img4 from "../components_images/Vijaylata.jpeg"
+
 import img10 from "../features/OnlineReview.gif"
 const Row = tw.div`flex flex-col md:flex-row justify-between items-center`;
 const Column = tw.div`w-full max-w-md mx-auto md:max-w-none md:mx-0`;
@@ -79,61 +79,52 @@ export default ({
   imageRounded = true,
   imageBorder = false,
   imageShadow = false,
-  subheading = "Testimonials",
-  heading = "Testimonials.",
-  description = "That's the thing about awards - it's for the people who do all the hard work behind the scenes. An award is just a clap at them.",
+  subheading = "",
+  heading = "Testimonials",
+  description = "",
   textOnLeft = false,
   testimonials = [
     {
       stars: 5,
       profileImageSrc:
-        img1,
-      heading: "Amazing User Experience",
+        img2,
+      heading: "",
       quote:
-        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      customerName: "Rachana Garg",
-      customerTitle: "SAC Chair"
+        "With each passing month and year, the IEEE Delhi Section has flourished, and I've been fortunate enough to be able to assist the SAC on their path. They have had a positive impact on many students through their events and webinars, and they will continue to do so for all of their upcoming activities. Even the most difficult circumstances haven't dampened their passion for volunteering at IEEE.",
+      customerName: "Prof. Prerna Gaur",
+      customerTitle: "Student Activities Committee Chair"
     },
     {
       stars: 5,
       profileImageSrc:
-      img2,
-      heading: "Love the Developer Experience and Design Principles !",
+      img1,
+      heading: "",
       quote:
-        "Sinor Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-      customerName: "Rashmi Agarwal",
+        "IEEE Delhi Section volunteers have been working persistently and regularly to improve technology for the greater good. They've worked relentlessly to bridge the gap between industry and academia, and have given the community several opportunities to learn and grow. They are capable of completing any duty assigned to them and supporting the section in accomplishing its objectives and vision.",
+      customerName: "Prof. Rachana Garg",
       customerTitle: "SAC Member"
     },
     {
       stars: 5,
       profileImageSrc:
       img3,
-      heading: "Love the Developer Experience and Design Principles !",
+      heading: "",
       quote:
-        "Sinor Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-      customerName: "Meenu Khurana",
+        "Over the years, the IEEE Delhi Section has proven its worth on a variety of platforms. The division has a dedicated workforce, full of energised and highly skilled professionals who have tirelessly worked for the advancement and benefit of the society. The Delhi Section has always prioritised providing opportunities for talented student leaders and engineers to pursue their ambitions. Volunteerism is highly valued in the organisation, and is one of the primary reasons for its success.",
+      customerName: "Prof. Abdul Quaiyum Ansari",
       customerTitle: "SAC Member"
     },
     {
       stars: 5,
       profileImageSrc:
       img4,
-      heading: "Love the Developer Experience and Design Principles !",
+      heading: "",
       quote:
-        "Sinor Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-      customerName: "Mahesh Jangid",
+        "IEEE Delhi Section has been a shining example of continuous growth and accomplishments in an era when the world is more focused on sustainable growth.The IEEE Delhi Section recognises that innovation does not happen in a vacuum; it requires collaboration among members who share a common vision, and it has given an integrated platform for many years. Hands-on courses, workshops, conferences, congresses, and webinars are all used to promote professional development.",
+      customerName: "Dr. Y. Vijayalata Reddy",
       customerTitle: "SAC Member"
     },
-    {
-      stars: 5,
-      profileImageSrc:
-      img5,
-      heading: "Love the Developer Experience and Design Principles !",
-      quote:
-        "Sinor Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-      customerName: "Archit Goswami",
-      customerTitle: "SAC Member"
-    },
+    
   ]
 }) => {
   const [sliderRef, setSliderRef] = useState(null);
@@ -161,7 +152,7 @@ export default ({
                       <CustomerProfilePicture src={testimonial.profileImageSrc} alt={testimonial.customerName} />
                       <CustomerTextInfo>
                         <CustomerName>{testimonial.customerName}</CustomerName>
-                        <CustomerTitle>{testimonial.customerTitle}</CustomerTitle>
+                        
                       </CustomerTextInfo>
                     </CustomerInfo>
                     <Controls>

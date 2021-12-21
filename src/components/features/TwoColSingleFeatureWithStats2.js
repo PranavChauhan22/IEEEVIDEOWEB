@@ -49,7 +49,7 @@ export default ({
       About <span tw="text-blue-500">Us</span>
     </>
   ),
-  description = "Delhi Section is one of the 12 Sections in India coming under Asia-Pacific Region, the Region 10 of IEEE. At present it covers entire northern part of the country consisting of the four states of Rajasthan, Haryana, Punjab, Himachal Pradesh, and the National Capital Territory of Delhi, Union Territories of Chandigarh, Jammu & Kashmir, Ladakh.",
+  description = "IEEE Delhi Section is one of the 13 Sections in India Council coming under Asia-Pacific Region, the Region-10 of IEEE. At present it covers entire northern part of the country consisting of the four states of Rajasthan, Haryana, Punjab, Himachal Pradesh, and the National Capital Territory of Delhi, Union Territories of Chandigarh, Jammu & Kashmir, Ladakh.",
   primaryButtonText = "Learn More",
   primaryButtonUrl = "https://ewh.ieee.org/r10/delhi/",
   imageSrc = StatsIllustrationSrc,
@@ -69,12 +69,12 @@ export default ({
       value: "4848+"
     },
     {
-      key: "Active Student Member",
+      key: "Active Student Members",
       value: "1980+"
     },
     {
       key: "Active Student Branches",
-      value: "320+"
+      value: "40+"
     }
   ];
 

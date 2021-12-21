@@ -58,10 +58,10 @@ const CardMetaFeature = styled.div`
 const CardAction = tw(PrimaryButtonBase)`w-full mt-6`;
 
 export default ({
-  subheading = "Our Newsletter",
+  subheading = "",
   headingHtmlComponent = (
     <>
-      Meet our Latest <span tw="text-primary-500">Edition.</span>
+      Read our Latest <span tw="text-primary-500">Edition</span>
     </>
   ),
   description = `A community newsletter helps to get the word out and get people involved in activities going on in your neighborhood all year long. In fact, strong communication can create safer communities and more rewarding living experiences.`,

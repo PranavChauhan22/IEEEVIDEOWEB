@@ -70,16 +70,34 @@ export default () => {
           <ColumnHeading>Quick Links</ColumnHeading>
           <LinkList>
             <LinkListItem>
-              <Link href="#Features">Features</Link>
+              <Link href="#Features">Student Activities Committee</Link>
             </LinkListItem>
             <LinkListItem>
               <Link href="#About">About</Link>
             </LinkListItem>
             <LinkListItem>
-              <Link href="#Galleria">Galleria</Link>
+              <Link href="#Galleria">Gallery</Link>
             </LinkListItem>
             <LinkListItem>
               <Link href="#Contact">Contact Us</Link>
+            </LinkListItem>
+          </LinkList>
+        </Column>
+      
+        <Column>
+          <ColumnHeading>References</ColumnHeading>
+          <LinkList>
+            <LinkListItem>
+              <Link href="https://www.ieee.org/">IEEE.org</Link>
+            </LinkListItem>
+            <LinkListItem>
+              <Link href="http://ieeexplore.ieee.org/">IEEE Xplore Digital Library</Link>
+            </LinkListItem>
+            <LinkListItem>
+              <Link href="http://standards.ieee.org/">IEEE Standards</Link>
+            </LinkListItem>
+            <LinkListItem>
+              <Link href="http://spectrum.ieee.org/">IEEE Spectrum</Link>
             </LinkListItem>
           </LinkList>
         </Column>
@@ -91,13 +109,13 @@ export default () => {
               <Link href="#">Piyush Kumar Sahoo</Link>
             </LinkListItem>
             <LinkListItem>
-              <Link href="#">+91xxx xxx xxx</Link>
+              <Link href="#">+91 9891789605</Link>
             </LinkListItem>
             <LinkListItem>
               <Link href="#">Gagan Singh</Link>
             </LinkListItem>
             <LinkListItem>
-              <Link href="#">+91xxx xxx xxx</Link>
+              <Link href="#">+91 9999566832</Link>
             </LinkListItem>
             
           </LinkList>

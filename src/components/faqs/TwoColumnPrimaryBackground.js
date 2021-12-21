@@ -47,23 +47,13 @@ export default ({
       answer:
         "IEEE Delhi Section Student Network is a team of student volunteers from student branches under the Delhi Section and its subsections that manages and conducts activities focussed towards the young and aspiring student engineers and provides support for collaborations."
     },
-    {
-      question: "How can Student Members connect with the Section?",
-      answer:
-        `Visit myIEEE and MemberNET Rolodex to connect with your Section members: http://www.ieee.org/membership_services/membership/my_ieee.html
-        Proactively reach out to Section leaders via email or by attending local events to display what your Student Branch is doing and what assistance you need.
-        Inquire about opportunities for you to learn more about being involved in your Section even as a Student Member.`
-    },
+   
     {
       question: "How to become an IEEE Student Member? ",
       answer:
         "Join now and gain immediate access to all the valuable benefits and features of IEEE membership. Enhance your IEEE membership by joining a Society specialising in your technical interests, for as little as US$10 per year. To join IEEE: https://www.ieee.org/membership-application/join.html."
     },
-    {
-      question: "How to collaborate with Section SAC for Student Branch/WIE events?",
-      answer:
-        "Student branches can collaborate with the IEEE Delhi Section SAC by sending event proposal emails to ieeedelhisac@gmail.com.",
-    },
+  
     {
       question: "How can Branch counsellor information be updated in Section Database?",
       answer:
@@ -71,7 +61,7 @@ export default ({
         ii) The reported officer can report the new officer directly on the vTools platform.`
     },
     {
-      question: "How to open a new IEEE society chapter?",
+      question: "How to open a new IEEE Student Branch Society Chapter?",
       answer:
         "A Chapter shall be a technical subunit of a Region, one or more Sections, or a Geographic Council. There may be single Society Chapters, joint Society Chapters, and Technical Council Chapters. Chapters are your local link to the valuable resources available from IEEE and its 40+ Societies and Technical Councils. Follow the link for complete information: https://mga.ieee.org/resources-operations/formations-petitions#chapter and go to “Petition to form an IEEE Society/Technical Council Chapter and Joint Chapter”.",
     }

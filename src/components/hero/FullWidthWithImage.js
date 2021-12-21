@@ -10,8 +10,16 @@ import "../features/stylee.css"
 import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
 import Header, { LogoLink, NavLinks, NavLink as NavLinkBase } from "../headers/light.js";
-import img1 from "../components_images/ieeefinalimghome.jpg"
+import img1 from "../components_images/ieeeimg.jpg"
 import img11 from "../features/thirdanime.gif"
+import {
+
+  useWindowWidth,
+
+} from '@react-hook/window-size'
+import Menufinal from "./Menufinal";
+
+
 const StyledHeader = styled(Header)`
   ${tw`justify-between`}
   ${LogoLink} {
@@ -52,13 +60,18 @@ export default ({
   navLinks = [
     <NavLinks key={1}>
 
-      <NavLink href="#Contact">DSC' 22</NavLink>
-      <NavLink href="/Editions">Editions</NavLink>
-      <NavLink href="/Events_Display">Events</NavLink>
-      <NavLink href="/Reports_Display">Reports</NavLink>
+      <NavLink href="#Contact">DSSYWC</NavLink>
       
+
+
+
+      <NavLink href="/Events_Display">Events</NavLink>
+      <NavLink href="/Reports_Display">Articles</NavLink>
+      <NavLink href="/Editions">Newsletter</NavLink>
+      <NavLink href="/Report">Articles</NavLink>
     </NavLinks>
   ],
+  
   heading = (
     <>
   
@@ -66,25 +79,30 @@ export default ({
       We are
    
      
-      <h4 className="h4mainpg">IEEE DELHI</h4>
+      <h6 className="h4mainpg">IEEE DELHI SECTION</h6>
       
       <span tw="text-blue-500"> <ReactTypingEffect className="type-mob" speed={100} eraseSpeed={50} cursorClassName="crname"
-          text={["STUDENTS ACTIVITES"]}
+          text={["STUDENT ACTIVITIES COMMITTEE"]}
         /></span>
-              <h4 className="h5mainpg">COMMITTEE</h4> 
+              
     </>
   ),
-  description = "Delhi Section is one of the 12 Sections in India coming under Asia-Pacific Region, the Region 10 of IEEE.",
+  description = "IEEE Delhi Section is one of the 13 Sections in India Council coming under Asia-Pacific Region, the Region 10 of IEEE. ",
   primaryActionUrl = "/Event",
   primaryActionText = "Event Submission",
   secondaryActionUrl = "#eventpro",
-  secondaryActionText = "Event Proposal"
+  secondaryActionText = "Event Collaboration"
 }) => {
+  var onlyWidth=useWindowWidth();
+  
+  
+   console.log(onlyWidth)
   return (
     <Container>
+          {onlyWidth>639&&<Menufinal/>}
       <TwoColumn>
         <LeftColumn>
-          <StyledHeader links={navLinks} collapseBreakpointClass="sm" />
+          {onlyWidth<=639&&<StyledHeader links={navLinks} collapseBreakpointClass="sm" />}
           <Content>
             <Heading>{heading}</Heading>
             <Paragraph>{description}</Paragraph>

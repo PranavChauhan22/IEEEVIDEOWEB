@@ -3,7 +3,7 @@ import styled from "styled-components";
 import tw from "twin.macro";
 import { css } from "styled-components/macro"; //eslint-disable-line
 import {ReactComponent as SvgDotPatternIcon} from "../../images/dot-pattern.svg"
-
+import "../features/stylee.css"
 const Container = tw.div`relative`;
 const Content = tw.div`max-w-screen-xl mx-auto py-20 lg:py-24`;
 
@@ -38,13 +38,15 @@ export default () => {
   return (
 
 
-    <div id="eventpro">
+    <div id="eventpro" >
 
     <Container>
       <Content>
         <FormContainer>
           <div tw="mx-auto max-w-4xl">
-            <h2>Organize an Event</h2>
+            <h2>Collaborate with us: </h2>
+            <h6>The submitted proposal document must include the following mentioned headers compulsorily: Name of the Student Branch, Details of the Point of Contact from the Student Branch/Affinity Group, Title of the Event, Name and About the Speaker(s), Duration of the event, Event Mode & Platform, Proposed Date & Time, Expected Number of Participants, Financial Budget and Expected Support required from the Section. 
+Note: The financial support provision from Section is subject to approval. </h6>
             <form action="https://submit-form.com/m0cxKNiH">
             <input
     type="hidden"
@@ -55,17 +57,17 @@ export default () => {
               <TwoColumn>
                 <Column>
                   <InputContainer>
-                    <Label htmlFor="name-input">Your Name</Label>
+                    <Label htmlFor="name-input"> Name</Label>
                     <Input id="name-input" type="text" name="name" placeholder="E.g. John Doe" />
                   </InputContainer>
                   <InputContainer>
-                    <Label htmlFor="email-input">Your Email Address</Label>
+                    <Label htmlFor="email-input"> Email Address</Label>
                     <Input id="email-input" type="email" name="email" placeholder="E.g. john@mail.com" />
                   </InputContainer>
                 </Column>
                 <Column>
                   <InputContainer tw="flex-1">
-                    <Label htmlFor="name-input">Your Message</Label>
+                    <Label htmlFor="name-input">Proposal Submission</Label>
                     <TextArea id="message-input" name="message" placeholder="E.g. Details about your event"/>
                   </InputContainer>
                 </Column>

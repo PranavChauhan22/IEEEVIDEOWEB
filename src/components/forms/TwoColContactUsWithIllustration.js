@@ -31,10 +31,10 @@ const Input = tw.input`border-2 px-5 py-3 rounded focus:outline-none font-medium
 const SubmitButton = tw(PrimaryButtonBase)`inline-block lg:ml-6 mt-6 lg:mt-0`
 
 export default ({
-  subheading = "Contact Us",
+  subheading = "",
   heading = <>Feel free to <span tw="text-primary-500">get in touch</span><wbr/> with us.</>,
-  description = "Get in Touch !",
-  submitButtonText = "Contact Me",
+  description = "",
+  submitButtonText = "Submit",
   formAction = "https://submit-form.com/1rylS3aY",
   formMethod = "get",
   textOnLeft = true,
