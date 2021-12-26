@@ -16,7 +16,7 @@ function Menufinal() {
       </ul>
     </li>
     <li><a href="/Events_Display">Events</a></li>
-    <li><a href="/Reports_Display">Articles</a></li>
+   
   </ul>
 </nav>
         </div>

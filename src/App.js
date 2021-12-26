@@ -2,10 +2,10 @@ import "tailwindcss/dist/base.css";
 import "styles/globalStyles.css";
 import React from "react";
 import { css } from "styled-components/macro"; //eslint-disable-line
-import "../src/App.css"
+import "../src/App.css";
 // import { BrowserRouter as Router,Routes, Route, Link } from 'react-router-dom';
-import Dash from "../src/components/features/Dash"
-import Reportpanel from "../src/components/features/Reportpanel"
+import Dash from "../src/components/features/Dash";
+import Reportpanel from "../src/components/features/Reportpanel";
 /*
  * This is the entry point component of this project. You can change the below exported default App component to any of
  * the prebuilt landing page components by uncommenting their import and export lines respectively.
@@ -134,51 +134,36 @@ import Rout from "Rout";
 // import Events from "components/features/Events";
 // import Events from "components/Events/Events";
 
+import BodyRoutes from "./BodyRoutes";
+
 export default function App() {
   // If you want to disable the animation just use the disabled `prop` like below on your page's component
   // return <AnimationRevealPage disabled>xxxxxxxxxx</AnimationRevealPage>;
 
-
   return (
-    <div className="app">
-                <Router>
-    <Switch>
-<Route path="/" exact>
+    <Router>
+      <div className="app">
+        <div>
 
-        <FullWidthWithImage/>
+        <Switch>
+          <Route exact path="/" component={BodyRoutes} />
+
+          <Route exact path="/Event" component={Dash} />
+
+          <Route
+            exact
+            path="/IEEEDELHISSN_TEAM"
+            component={ProfileThreeColGrid}
+            />
+
+          <Route exact path="/Editions"  component={Editions} />
+
+          <Route exact path="/Report" component={Reportpanel} />
+        </Switch>
+            </div>
+      </div>
       
-        <TwoColSingleFeatureWithStats2/>
-        <ThreeColWithSideImage/>
-        <TwoColWithButton/>
-     
-        <Awards/>
-        <TwoColumnWithImageAndRating/>
-        <ThreeColSlider/>
-        <TwoColContactUsWithIllustration/>
-        <SimpleContactUs/>
-        <TwoColumnPrimaryBackground/>
-        <SimpleFiveColumn/>
-</Route>
-
-<Route path="/Event" exact>
-  <Dash/>
-</Route>
-<Route path="/IEEEDELHISSN_TEAM" exact>
-  <ProfileThreeColGrid/>
-</Route>
-<Route path="/Editions" exact>
-  <Editions/>
-</Route>
-
-
-<Route path="/Report" exact>
-  <Reportpanel/>
-</Route>
-      
-      </Switch>
     </Router>
-
-    </div>
   );
 }
 
