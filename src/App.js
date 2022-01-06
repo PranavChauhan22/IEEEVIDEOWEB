@@ -108,7 +108,7 @@ import ComponentRenderer from "ComponentRenderer.js";
 import MainLandingPage from "MainLandingPage.js";
 import ThankYouPage from "ThankYouPage.js";
 
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import FullWidthWithImage from "components/hero/FullWidthWithImage";
 import ThreeColSimple from "components/features/ThreeColSimple";
 import ThreeColWithSideImage from "components/features/ThreeColWithSideImage";
@@ -141,29 +141,7 @@ export default function App() {
   // return <AnimationRevealPage disabled>xxxxxxxxxx</AnimationRevealPage>;
 
   return (
-    <Router>
-      <div className="app">
-        <div>
-
-        <Switch>
-          <Route exact path="/" component={BodyRoutes} />
-
-          <Route exact path="/Event" component={Dash} />
-
-          <Route
-            exact
-            path="/IEEEDELHISSN_TEAM"
-            component={ProfileThreeColGrid}
-            />
-
-          <Route exact path="/Editions"  component={Editions} />
-
-          <Route exact path="/Report" component={Reportpanel} />
-        </Switch>
-            </div>
-      </div>
-      
-    </Router>
+    <Rout/>
   );
 }
 

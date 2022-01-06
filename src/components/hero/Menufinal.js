@@ -10,12 +10,12 @@ function Menufinal() {
     <li><a href="#Contact">DSSYWC</a></li>
     <li><a href="#">Editions</a>
     <ul class="dropdown">
-        <li><a href="/Editions">Newsletter</a></li>
-        <li><a href="/Report">Articles</a></li>
+        <li><a href="#Editions">Newsletter</a></li>
+        <li><a href="#Report">Articles</a></li>
         
       </ul>
     </li>
-    <li><a href="/Events_Display">Events</a></li>
+    <li><a href="#Events_Display">Events</a></li>
    
   </ul>
 </nav>

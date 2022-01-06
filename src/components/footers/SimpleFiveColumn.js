@@ -66,23 +66,7 @@ export default () => {
             </SocialLink>
           </SocialLinksContainer>
         </WideColumn>
-        <Column>
-          <ColumnHeading>Quick Links</ColumnHeading>
-          <LinkList>
-            <LinkListItem>
-              <Link href="#Features">Student Activities Committee</Link>
-            </LinkListItem>
-            <LinkListItem>
-              <Link href="#About">About</Link>
-            </LinkListItem>
-            <LinkListItem>
-              <Link href="#Galleria">Gallery</Link>
-            </LinkListItem>
-            <LinkListItem>
-              <Link href="#Contact">Contact Us</Link>
-            </LinkListItem>
-          </LinkList>
-        </Column>
+        
       
         <Column>
           <ColumnHeading>References</ColumnHeading>

@@ -65,10 +65,10 @@ export default ({
 
 
 
-      <NavLink href="/Events_Display">Events</NavLink>
-      <NavLink href="/Reports_Display">Articles</NavLink>
-      <NavLink href="/Editions">Newsletter</NavLink>
-      <NavLink href="/Report">Articles</NavLink>
+      <NavLink href="#Events_Display">Events</NavLink>
+    
+      <NavLink href="#Editions">Newsletter</NavLink>
+      <NavLink href="#Report">Articles</NavLink>
     </NavLinks>
   ],
   
@@ -88,7 +88,7 @@ export default ({
     </>
   ),
   description = "IEEE Delhi Section is one of the 13 Sections in India Council coming under Asia-Pacific Region, the Region 10 of IEEE. ",
-  primaryActionUrl = "/Event",
+  primaryActionUrl = "#Event",
   primaryActionText = "Event Submission",
   secondaryActionUrl = "#eventpro",
   secondaryActionText = "Event Collaboration"
@@ -110,9 +110,7 @@ export default ({
               <a href={primaryActionUrl} className="action primaryAction">
                 {primaryActionText}
               </a>
-              <a href={secondaryActionUrl} className="action secondaryAction">
-                {secondaryActionText}
-              </a>
+              
             </Actions>
           </Content>
         </LeftColumn>

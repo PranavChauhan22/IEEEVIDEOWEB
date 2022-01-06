@@ -59,7 +59,7 @@ export default ({
   ),
   description = "Teamwork is the ability to work together toward a common vision. The ability to direct individual accomplishments toward organizational objectives. It is the fuel that allows common people to attain uncommon results.",
   primaryButtonText = "Know the team",
-  primaryButtonUrl = "/IEEEDELHISSN_TEAM",
+  primaryButtonUrl = "#IEEEDELHISSN_TEAM",
   imageSrc = TeamIllustrationSrc,
   buttonRounded = true,
   imageRounded = true,
