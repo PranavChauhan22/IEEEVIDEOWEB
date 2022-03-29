@@ -140,8 +140,7 @@ function Rout() {
         <Switch>
           <Route exact path="/" component={BodyRoutes} />
 
-          <Route exact path="/Event" component={Dash} />
-
+  
           <Route
             exact
             path="/IEEEDELHISSN_TEAM"
@@ -151,6 +150,7 @@ function Rout() {
           <Route exact path="/Editions"  component={Editions} />
 
           <Route exact path="/Report" component={Reportpanel} />
+          <Route exact path="/Events" component={Dash} />
         </Switch>
             </div>
       </div>

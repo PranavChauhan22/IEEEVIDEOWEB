@@ -42,7 +42,7 @@ export default ({
   // The textOnLeft boolean prop can be used to display either the text on left or right side of the image.
 
   return (
-    <Container id="Contact">
+    <Container id="contact">
       <TwoColumn>
         <ImageColumn>
           <Image imageSrc={EmailIllustrationSrc} />
@@ -65,7 +65,7 @@ export default ({
               <Input type="email" name="Email" placeholder="Your Email Address" className="frmele"/>
               
               <Input type="text" name="Subject" placeholder="Subject/Topic" className="frmele"/>
-              <Input type="text" name="Message" placeholder="Message" className="frmele1"/>
+              <Input type="text" name="Message" placeholder="Message" className="frmele frmelek"/>
               <SubmitButton type="submit" className="frmele">{submitButtonText}</SubmitButton>
               </div>
             </Form>

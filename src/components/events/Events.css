@@ -1,0 +1,92 @@
+
+::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  .loadanime{
+    margin: auto;
+  }
+  .container {
+    display: flex;
+    overflow-x: scroll;
+    width: 100%;
+    padding: 10px;
+ 
+  }
+  .box-shadow{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  .container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .carde {
+    flex-shrink: 0;
+    width: 260px;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    /* height: 417px; */
+    border-radius: 10px;
+    
+    margin-left: 10px;
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .eventcardimg{
+      width: 260px;
+      padding: 3px;
+      height: 240px;
+      
+  }
+  .eventshorflex{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+     padding: 10px;
+     
+  }
+  .eventsdate{
+      color: gray;
+      padding-left: 10px;
+  }
+  
+  .eventname{
+      padding: 10px;
+      font-size: 20px;
+  }
+  .eventsb{
+    padding-left: 10px;
+    color: grey;
+  }
+  .eventsdesc{
+      padding-top: 10px;
+  }
+  .shareicon{
+
+  }
+  
+  .eventshoflex{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+  }
+  .eventnamehead{
+    margin-left: 60px;
+      font-size: 45px;
+      font-weight: bolder;
+      /* margin: auto; */
+  }
+
+  .dispverflex{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      /* align-items: center; */
+  }
+  @media screen and (max-width: 767px) {
+    .dispverflex{
+      
+        align-items: center;
+    }
+  }

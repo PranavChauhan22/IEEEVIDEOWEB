@@ -57,6 +57,7 @@ const CardMetaFeature = styled.div`
 `;
 const CardAction = tw(PrimaryButtonBase)`w-full mt-6`;
 
+
 export default ({
   subheading = "",
   headingHtmlComponent = (
@@ -64,7 +65,18 @@ export default ({
       Read our Latest <span tw="text-primary-500">Edition</span>
     </>
   ),
-  description = `A community newsletter helps to get the word out and get people involved in activities going on in your neighborhood all year long. In fact, strong communication can create safer communities and more rewarding living experiences.`,
+  
+  description1 = `IEEE Delhi Section Student Activities Committee Newsletter 2021, gives a glimpse of  the accomplishments made by its student members throughout the year.
+  `,
+  description2 = `
+  With an aim to inspire and motivate student branches ,  It highlights and showcases the eccentric activities, the IEEE Delhi Section and its student branches organized in the past year.
+    
+  `,
+  description3 = `  Apart from the accolades it also features the success stories  of  IEEE members who have been awarded for their spirits of volunteering and determination towards IEEE.
+  `,
+  description4 = `  
+  With this newsletter, we intend to provide readers with an inside look at the IEEE Delhi Section and its student branches, as well as an opportunity to reminisce.
+  `,
   linkText = "",
   cardLinkText = "Read Case Study",
   textOnLeft = false
@@ -78,12 +90,15 @@ export default ({
             <HeadingInfoContainer>
               <Subheading>{subheading}</Subheading>
               <HeadingTitle>{headingHtmlComponent}</HeadingTitle>
-              <HeadingDescription>{description}</HeadingDescription>
+              <HeadingDescription>{description1}</HeadingDescription>
+              <HeadingDescription>{description2}</HeadingDescription>
+              <HeadingDescription>{description3}</HeadingDescription>
+              <HeadingDescription>{description4}</HeadingDescription>
              
             </HeadingInfoContainer>
           </HeadingColumn>
-        <div>
-        <iframe width="620px" height="566px" src="https://www.yumpu.com/en/embed/view/kMzBy4NCrfDZElWV" frameborder="0" allowfullscreen="true"  allowtransparency="true"></iframe>
+        <div style={{margin:"auto"}}>
+        <iframe className="iframedi" src="https://www.yumpu.com/en/embed/view/kMzBy4NCrfDZElWV" frameborder="0" allowfullscreen="true"  allowtransparency="true"></iframe>
         
    
        

@@ -81,7 +81,7 @@ export default ({
   if (!statistics) statistics = defaultStatistics;
 
   return (
-    <Container id="About">
+    <Container id="about">
       <TwoColumn css={!imageInsideDiv && tw`md:items-center`}>
      
         <Fade up>

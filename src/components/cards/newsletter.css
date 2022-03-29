@@ -1,0 +1,27 @@
+.iframedi{
+    padding-top: 30px;
+}
+@media screen and (min-width: 1024px) {
+    .iframedi{
+        width: 600px;
+        height: 588px;
+    }
+  }
+@media screen and (max-width: 1024px) {
+    .iframedi{
+        width: 600px;
+        height: 588px;
+    }
+  }
+@media screen and (max-width: 780px) {
+    .iframedi{
+        width: 400px;
+        height: 588px;
+    }
+  }
+@media screen and (max-width: 480px) {
+    .iframedi{
+        width: 260px;
+        height: 588px;
+    }
+  }

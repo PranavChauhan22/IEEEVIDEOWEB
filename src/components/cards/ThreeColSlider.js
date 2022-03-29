@@ -128,7 +128,7 @@ export default () => {
   ]
 
   return (
-    <Container id="Galleria">
+    <Container id="gallery">
       <Content>
         <HeadingWithControl>
           <Heading>Gallery</Heading>

@@ -30,7 +30,7 @@ export default class Toggle extends Component {
             config={config.molasses}
             onRest={() =>
               this.setState({
-                toggle: toggle+1
+                toggle: (toggle==18?0:toggle+1)
               })
             }>
             {({ opacity }, item) =>
@@ -235,13 +235,14 @@ export default class Toggle extends Component {
 
       }
       {(toggle==16)&&
-                         <Textani data={"Web Administrator"}/>
+                         <Textani data={"Webmaster"}/>
                  }
                         {(toggle==17)&&
                          <div className="hrflex">
                          <div className="crdteam">
                            <div className="igg25" />
                            <h4 className="crdtext crdtext1">Pranav Chauhan</h4>
+                           <h6 className="bluebadge1">Lead</h6>
                            {/* <h4 className="crdtext crdtext3">Web Administrator</h4> */}
                          </div>
                          </div>

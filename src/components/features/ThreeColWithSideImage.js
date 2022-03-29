@@ -93,7 +93,7 @@ export default ({ cards = null, heading = "Student Activities Committee 2021-22"
         <Saccards/>
         </Fade>
       </ThreeColumnContainer>
-      <DecoratorBlob />
+      
     </Container>
   );
 };

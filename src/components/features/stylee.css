@@ -7,6 +7,14 @@
     
 }
 
+
+.horflexlo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  
+    top: 0;
+}
 .crdflex{
     display: flex;
     flex-direction: column;
@@ -29,17 +37,48 @@
     100%   { transform: translate(0, -0px); }   
 }
 .secani{
-    width: 40vw;
-    height: 60vh;
+    
+    height: 400px;
     margin: auto;
 }
 .headim{
-    width: 65vw;
-    height:   110vh;
+    height: 800px;
+    background-size: cover;
     margin: auto;
 }
 
-
+@media screen and (max-width: 745px) {
+    .headim{
+        height: 600px;
+        background-size: cover;
+        margin: auto;
+    }
+  }
+@media screen and (max-width: 479px) {
+   .frmele{
+    height:50px;
+   }
+  }
+@media screen and (min-width: 479px) {
+   .frmelek{
+    height:200px;
+    width: 400px;
+   }
+  }
+@media screen and (max-width: 745px) {
+    .headim{
+        height: 600px;
+        background-size: cover;
+        margin: auto;
+    }
+  }
+@media screen and (max-width: 500px) {
+    .headim{
+        height: 450px;
+        background-size: cover;
+        margin: auto;
+    }
+  }
 .awardtxt{
     font-size: 20px;
     font-weight: bold;
@@ -121,8 +160,9 @@
     margin: 40px;
 }
 .frmele1{
-    width: 20vw;
-    height: 20vh;
+
+  height: 100px;
+   
     margin: 20px;
     
 }
@@ -346,7 +386,7 @@
 }
 
 .igg25{
-    background-image: url("../features/gridimages/Pranav\ Chauhan_Web\ Administrator\ -\ Pranav\ Chauhan.jpg");
+    background-image: url("../features/gridimages/Pranav_Chauhan.webp");
     background-size: cover;
     width: 80px;
     height: 80px;

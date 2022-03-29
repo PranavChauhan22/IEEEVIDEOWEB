@@ -14,6 +14,11 @@ import TeamIllustrationSrc from "images/team-illustration-2.svg";
 import { ReactComponent as SvgDotPattern } from "images/dot-pattern.svg";
 import Toggle from "./Toggle";
 import Textani from "./Textani";
+import {
+
+  useWindowWidth,
+
+} from '@react-hook/window-size'
 
 
 const Container = tw.div`relative`;
@@ -70,17 +75,20 @@ export default ({
   imageDecoratorBlobCss = null,
   textOnLeft = true,
 }) => {
+  var onlyWidth=useWindowWidth();
   // The textOnLeft boolean prop can be used to display either the text on left or right side of the image.
 
   return (
     <Container>
       
       <TwoColumn>
-<Fade>
+<Fade >
 
+{onlyWidth>=768&& 
         <div className="alpl">
-  <Toggle/>
+<Toggle/>
         </div>
+}
 </Fade>
       
 

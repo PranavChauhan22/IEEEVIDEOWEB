@@ -8,7 +8,7 @@ import { ReactComponent as FacebookIcon } from "../../images/facebook-icon.svg";
 import { ReactComponent as TwitterIcon } from "../../images/twitter-icon.svg";
 import { ReactComponent as YoutubeIcon } from "../../images/youtube-icon.svg";
 import { ReactComponent as LinkedInIcon } from "../../images/linkedin-icon.svg";
-import logoieee from "../components_images/ieee_ds_black.png"
+import logoieee from "../logos/dslogo.png"
 const Container = tw.div`relative bg-gray-200 -mx-8 -mb-8 px-8`;
 const FiveColumns = tw.div`max-w-screen-xl mx-auto py-16 lg:py-20 flex flex-wrap justify-between`;
 
@@ -41,11 +41,13 @@ export default () => {
       <FiveColumns>
         <WideColumn>
           <LogoContainer>
-            <LogoImg src={logoieee} />
+            <LogoImg src={logoieee} style={{width:"200px"}} />
             
           </LogoContainer>
           <CompanyDescription>
-            
+          © 2022 IEEE – All rights reserved.
+          <br></br>
+          A not-for-profit organization, IEEE is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity.
           </CompanyDescription>
           <SocialLinksContainer>
        

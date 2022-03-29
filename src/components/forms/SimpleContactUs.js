@@ -52,25 +52,31 @@ Note: The financial support provision from Section is subject to approval. </h6>
     type="hidden"
     name="_redirect"
     
-    value="https://www.youtube.com/"
+    value="https://delhiieeeweb.web.app/#/"
   />
               <TwoColumn>
                 <Column>
                   <InputContainer>
                     <Label htmlFor="name-input"> Name</Label>
-                    <Input id="name-input" type="text" name="name" placeholder="E.g. John Doe" />
+                    <Input id="name-input" type="text" name="Name" placeholder="E.g. John Doe" />
                   </InputContainer>
                   <InputContainer>
                     <Label htmlFor="email-input"> Email Address</Label>
-                    <Input id="email-input" type="email" name="email" placeholder="E.g. john@mail.com" />
+                    <Input id="email-input" type="email" name="Email" placeholder="E.g. john@mail.com" />
                   </InputContainer>
                 </Column>
                 <Column>
                   <InputContainer tw="flex-1">
                     <Label htmlFor="name-input">Proposal Submission</Label>
-                    <TextArea id="message-input" name="message" placeholder="E.g. Details about your event"/>
+                    <TextArea id="message-input" name="Proposal Submission" placeholder="E.g. Details about your event"/>
                   </InputContainer>
+                  <InputContainer tw="flex-1">
+                  <Label htmlFor="name-input">Attach your proposal</Label>
+                    <TextArea id="message-input" name="Attach your proposal" placeholder="E.g. Attach your proposal in doc format"/>
+                  </InputContainer>
+                  
                 </Column>
+                
               </TwoColumn>
 
               <SubmitButton type="submit" value="Submit">Submit</SubmitButton>

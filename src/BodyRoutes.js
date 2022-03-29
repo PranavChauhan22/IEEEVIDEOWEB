@@ -27,6 +27,7 @@ import TwoColumnWithImageAndProfilePictureReview from "components/testimonials/T
 import ProfileThreeColGrid from "components/cards/ProfileThreeColGrid";
 import Menufinal from "components/hero/Menufinal";
 import Rout from "Rout";
+import Events from 'components/events/Events';
 function BodyRoutes() {
     return (
         <div>
@@ -35,8 +36,8 @@ function BodyRoutes() {
       <TwoColSingleFeatureWithStats2/>
       <ThreeColWithSideImage/>
       <TwoColWithButton/>
-   
       <Awards/>
+   <Events/>
       <TwoColumnWithImageAndRating/>
       <ThreeColSlider/>
       <TwoColContactUsWithIllustration/>

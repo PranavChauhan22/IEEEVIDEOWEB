@@ -87,22 +87,22 @@ export default ({
     {
       stars: 5,
       profileImageSrc:
+      img1,
+      heading: "",
+      quote:
+      "IEEE Delhi Section volunteers have been working persistently and regularly to improve technology for the greater good. They've worked relentlessly to bridge the gap between industry and academia, and have given the community several opportunities to learn and grow. They are capable of completing any duty assigned to them and supporting the section in accomplishing its objectives and vision.",
+      customerName: "Prof. Rachana Garg",
+      customerTitle: "SAC Member"
+    },
+    {
+      stars: 5,
+      profileImageSrc:
         img2,
       heading: "",
       quote:
         "With each passing month and year, the IEEE Delhi Section has flourished, and I've been fortunate enough to be able to assist the SAC on their path. They have had a positive impact on many students through their events and webinars, and they will continue to do so for all of their upcoming activities. Even the most difficult circumstances haven't dampened their passion for volunteering at IEEE.",
       customerName: "Prof. Prerna Gaur",
       customerTitle: "Student Activities Committee Chair"
-    },
-    {
-      stars: 5,
-      profileImageSrc:
-      img1,
-      heading: "",
-      quote:
-        "IEEE Delhi Section volunteers have been working persistently and regularly to improve technology for the greater good. They've worked relentlessly to bridge the gap between industry and academia, and have given the community several opportunities to learn and grow. They are capable of completing any duty assigned to them and supporting the section in accomplishing its objectives and vision.",
-      customerName: "Prof. Rachana Garg",
-      customerTitle: "SAC Member"
     },
     {
       stars: 5,

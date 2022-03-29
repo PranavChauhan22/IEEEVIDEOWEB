@@ -35,15 +35,15 @@ import img23 from "../features/gridimages/Shalini\ Agrawal_\ Graphic\ Designing\
 import img24 from "../features/gridimages/Tanisha_Editorial\ Lead\ -\ Tanisha\ Dhawan.JPG"
 import img25 from "../features/gridimages/AishwaryaChand_Editorial-Coordinator\ -\ Aishwarya\ Chand.jpeg"
 import img26 from "../features/gridimages/KashishGarg_EditorialCoordinator\ -\ Kashish\ Garg.jpeg"
-import img27 from "../features/gridimages/Pranav\ Chauhan_Web\ Administrator\ -\ Pranav\ Chauhan.jpg"
+import img27 from "../features/gridimages/Pranav_Chauhan.webp"
 
 const HeadingContainer = tw.div``
 const Heading = tw(SectionHeading)``
 const Subheading = tw(SubheadingBase)`text-center mb-3`
 const Description = tw(SectionDescription)`mx-auto text-center`
 
-const Cards = tw.div`flex flex-wrap flex-row justify-center sm:max-w-2xl lg:max-w-5xl mx-auto`
-const Card = tw.div`mt-24 w-full sm:w-1/2 lg:w-1/3 flex flex-col items-center`
+const Cards = tw.div`flex flex-wrap flex-row justify-center`
+const Card = tw.div`mt-24 w-full sm:w-1/2 lg:w-1/4 flex flex-col items-center`
 const CardImage = styled.div`
   ${props => css`background-image: url("${props.imageSrc}");`}
   ${tw`w-64 h-64 bg-contain bg-center rounded`}
@@ -73,6 +73,8 @@ export default ({
   subheading = "Our Team",
   description = "",
   cards = [
+
+   
     {
       imageSrc:img1,
       position: "Mentor",
@@ -113,6 +115,7 @@ export default ({
         },
       ],
     },
+   
     {
       imageSrc:img3,
       position: "Section Student Representative",
@@ -153,6 +156,7 @@ export default ({
         },
       ],
     },
+
     {
       imageSrc:img5,
       position: "Subsection Student Representative",
@@ -176,7 +180,7 @@ export default ({
     {
       imageSrc:img6,
       position: "Subsection Student Representative",
-      name: "Shambhavi khanna",
+      name: "Shambhavi Khanna",
       name1: "Rajasthan",
       links: [
         {
@@ -193,89 +197,7 @@ export default ({
         },
       ],
     },
-    {
-      imageSrc:img7,
-      position: "Women In Engineering",
-      name: "Pallavi Singh",
-      name1: "Lead",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://www.linkedin.com/in/pallavi-singh-86b19519a-/",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    
-    {
-      imageSrc:img8,
-      position: "Women In Engineering",
-      name: "Shubham Singla",
-      name1: "",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://www.linkedin.com/in/shubham-purshottam-singla-6b8a91194",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    
-    {
-      imageSrc:img9,
-      position: "Women In Engineering",
-      name: "Khushi Kathuria",
-      name1: "",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://www.linkedin.com/in/khushi-kathuria-858a111a6",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    
-    {
-      imageSrc:img10,
-      position: "Women In Engineering",
-      name: "Priti Gangwar",
-      name1: "",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://www.linkedin.com/in/priti-gangwar-937252196/",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
+
     {
       imageSrc:img11,
       position: "Networking And Social Media",
@@ -299,7 +221,7 @@ export default ({
     {
       imageSrc:img12,
       position: "Networking And Social Media",
-      name: "Hemang Das",
+      name: "Hemang Sinha",
       name1: "",
       links: [
         {
@@ -388,6 +310,169 @@ export default ({
         },
         {
           url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc:img27,
+      position: "Webmaster",
+      name: "Pranav Chauhan",
+      name1: "Lead",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://www.linkedin.com/in/pranav-chauhan-217bb11b9/",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc:img24,
+      position: "Editorial",
+      name: "Tanisha Dhawan",
+      name1: "Lead",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://www.linkedin.com/in/tanisha-dhawan-9b1b331ab",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc:img25,
+      position: "Editorial",
+      name: "Aishwarya Chand",
+      name1: "",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://www.linkedin.com/in/aishwarya-chand-2022/",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc:img26,
+      position: "Editorial",
+      name: "Kashish Garg",
+      name1: "",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://www.linkedin.com/in/gargkashish",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc:img7,
+      position: "Women In Engineering",
+      name: "Pallavi Singh",
+      name1: "Lead",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://www.linkedin.com/in/pallavi-singh-86b19519a-/",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    
+    {
+      imageSrc:img8,
+      position: "Women In Engineering",
+      name: "Shubham Singla",
+      name1: "",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://www.linkedin.com/in/shubham-purshottam-singla-6b8a91194",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    
+    {
+      imageSrc:img9,
+      position: "Women In Engineering",
+      name: "Khushi Kathuria",
+      name1: "",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://www.linkedin.com/in/khushi-kathuria-858a111a6",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    
+    {
+      imageSrc:img10,
+      position: "Women In Engineering",
+      name: "Priti Gangwar",
+      name1: "",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://www.linkedin.com/in/priti-gangwar-937252196/",
           icon: LinkedinIcon,
         },
         {
@@ -536,86 +621,8 @@ export default ({
         },
       ],
     },
-    {
-      imageSrc:img24,
-      position: "Editorial",
-      name: "Tanisha Dhawan",
-      name1: "",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://www.linkedin.com/in/tanisha-dhawan-9b1b331ab",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
-      imageSrc:img25,
-      position: "Editorial",
-      name: "Aishwarya Chand",
-      name1: "",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://www.linkedin.com/in/aishwarya-chand-2022/",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
-      imageSrc:img26,
-      position: "Editorial",
-      name: "Kashish Garg",
-      name1: "",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://www.linkedin.com/in/gargkashish",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
-      imageSrc:img27,
-      position: "Web Administrator",
-      name: "Pranav Chauhan",
-      name1: "Lead",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://www.linkedin.com/in/pranav-chauhan-217bb11b9/",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
+   
+  
     
   ]
 }) => {
@@ -627,7 +634,10 @@ export default ({
           {heading && <Heading>{heading}</Heading> }
           {description && <Description>{description}</Description> }
         </HeadingContainer>
-        <Cards>
+        <Cards style={{textAlign:"center"}}>
+         
+
+          
           {cards.map((card, index) => (
             <Card key={index}>
               <CardImage className="imgt" imageSrc={card.imageSrc} />
@@ -645,6 +655,7 @@ export default ({
               </CardContent>
             </Card>
           ))}
+          
         </Cards>
       </ContentWithPaddingXl>
     </Container>

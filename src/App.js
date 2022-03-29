@@ -2,7 +2,7 @@ import "tailwindcss/dist/base.css";
 import "styles/globalStyles.css";
 import React from "react";
 import { css } from "styled-components/macro"; //eslint-disable-line
-import "../src/App.css";
+import "./App.css";
 // import { BrowserRouter as Router,Routes, Route, Link } from 'react-router-dom';
 import Dash from "../src/components/features/Dash";
 import Reportpanel from "../src/components/features/Reportpanel";
@@ -135,6 +135,7 @@ import Rout from "Rout";
 // import Events from "components/Events/Events";
 
 import BodyRoutes from "./BodyRoutes";
+import Events from "components/events/Events";
 
 export default function App() {
   // If you want to disable the animation just use the disabled `prop` like below on your page's component

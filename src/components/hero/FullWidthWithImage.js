@@ -60,12 +60,11 @@ export default ({
   navLinks = [
     <NavLinks key={1}>
 
-      <NavLink href="#Contact">DSSYWC</NavLink>
       
 
 
 
-      <NavLink href="#Events_Display">Events</NavLink>
+     
     
       <NavLink href="#Editions">Newsletter</NavLink>
       <NavLink href="#Report">Articles</NavLink>
@@ -96,13 +95,16 @@ export default ({
   var onlyWidth=useWindowWidth();
   
   
-   console.log(onlyWidth)
   return (
-    <Container>
+    <div>
+      
           {onlyWidth>639&&<Menufinal/>}
+          
+
       <TwoColumn>
         <LeftColumn>
           {onlyWidth<=639&&<StyledHeader links={navLinks} collapseBreakpointClass="sm" />}
+         
           <Content>
             <Heading>{heading}</Heading>
             <Paragraph>{description}</Paragraph>
@@ -119,6 +121,6 @@ export default ({
         <img src={img1} className="headim"/>
         </Fade>
       </TwoColumn>
-    </Container>
+    </div>
   );
 };
