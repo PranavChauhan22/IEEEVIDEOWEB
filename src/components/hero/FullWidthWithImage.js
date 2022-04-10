@@ -97,7 +97,16 @@ export default ({
   
   return (
     <div>
-      
+       <div class="meta-nav">
+		<p id="ieee-meta-a"><a href="https://www.ieee.org/index.html">IEEE.org</a> &#160;|&#160; <a href="https://www.ieeexplore.ieee.org/Xplore/guesthome.jsp">IEEE <em>Xplore</em> Digital Library</a> &#160;|&#160; <a href="https://standards.ieee.org/">IEEE Standards</a> &#160;|&#160; <a href="https://spectrum.ieee.org/">IEEE Spectrum</a> &#160;|&#160; <a href="https://www.ieee.org/sitemap.html">More Sites</a></p>
+
+		<p id="meta-ieee-logo">
+ 			<a href="https://www.ieee.org/join" class="joinIEEE">Join IEEE</a>
+		</p>
+
+    </div>
+    <div>
+     
           {onlyWidth>639&&<Menufinal/>}
           
 
@@ -121,6 +130,7 @@ export default ({
         <img src={img1} className="headim"/>
         </Fade>
       </TwoColumn>
+    </div>
     </div>
   );
 };

@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "./static/css/main.7e9cec39.chunk.css",
-    "main.js": "./static/js/main.b46c9676.chunk.js",
-    "main.js.map": "./static/js/main.b46c9676.chunk.js.map",
+    "main.css": "./static/css/main.3d7aa6a7.chunk.css",
+    "main.js": "./static/js/main.bd4a0e11.chunk.js",
+    "main.js.map": "./static/js/main.bd4a0e11.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.ace96d0c.js",
     "runtime-main.js.map": "./static/js/runtime-main.ace96d0c.js.map",
     "static/css/2.103723e9.chunk.css": "./static/css/2.103723e9.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.466dcde5.chunk.js.map": "./static/js/2.466dcde5.chunk.js.map",
     "index.html": "./index.html",
     "static/css/2.103723e9.chunk.css.map": "./static/css/2.103723e9.chunk.css.map",
-    "static/css/main.7e9cec39.chunk.css.map": "./static/css/main.7e9cec39.chunk.css.map",
+    "static/css/main.3d7aa6a7.chunk.css.map": "./static/css/main.3d7aa6a7.chunk.css.map",
     "static/js/2.466dcde5.chunk.js.LICENSE.txt": "./static/js/2.466dcde5.chunk.js.LICENSE.txt",
     "static/media/12.f256ceac.JPG": "./static/media/12.f256ceac.JPG",
     "static/media/AboutUsPage.c9232ae2.jpeg": "./static/media/AboutUsPage.c9232ae2.jpeg",
@@ -80,7 +80,6 @@
     "static/media/map-pin.svg": "./static/media/map-pin.8c41fcd3.svg",
     "static/media/menu.svg": "./static/media/menu.644fa295.svg",
     "static/media/minus.svg": "./static/media/minus.595a628f.svg",
-    "static/media/palak.7a9c7108.jpeg": "./static/media/palak.7a9c7108.jpeg",
     "static/media/play-circle.svg": "./static/media/play-circle.dcf880c0.svg",
     "static/media/plus.svg": "./static/media/plus.887d2aad.svg",
     "static/media/prernagaur.59753a6c.jpeg": "./static/media/prernagaur.59753a6c.jpeg",
@@ -91,7 +90,6 @@
     "static/media/quotes-r.4ac4f654.svg": "./static/media/quotes-r.4ac4f654.svg",
     "static/media/radio.svg": "./static/media/radio.597e1dfd.svg",
     "static/media/reliable-icon.1367510a.svg": "./static/media/reliable-icon.1367510a.svg",
-    "static/media/ritvik.f2bdace5.jpeg": "./static/media/ritvik.f2bdace5.jpeg",
     "static/media/ritwik.19d51cf3.jpeg": "./static/media/ritwik.19d51cf3.jpeg",
     "static/media/rsz_archit_goswami.37432c57.jpg": "./static/media/rsz_archit_goswami.37432c57.jpg",
     "static/media/secanime.a0dab440.gif": "./static/media/secanime.a0dab440.gif",
@@ -131,7 +129,7 @@
     "static/js/runtime-main.ace96d0c.js",
     "static/css/2.103723e9.chunk.css",
     "static/js/2.466dcde5.chunk.js",
-    "static/css/main.7e9cec39.chunk.css",
-    "static/js/main.b46c9676.chunk.js"
+    "static/css/main.3d7aa6a7.chunk.css",
+    "static/js/main.bd4a0e11.chunk.js"
   ]
 }

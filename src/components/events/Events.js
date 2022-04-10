@@ -50,7 +50,7 @@ function Events() {
                   <div className="eventsdate">{src["Event Date"]}</div>
                 </div>
                 <div className="eventshoflex">
-                  <div className="eventname">{src["Event Name"]}</div>
+                  <div className={src["Event Name"].length>20?"eeventname":"eventname"}>{src["Event Name"]}</div>
                   <a href={src["Social Media Link"]} target={"_blank"}>
                     <IoShareSocialSharp className="shareicon" />
                   </a>

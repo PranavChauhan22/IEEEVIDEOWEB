@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 import ComponentRenderer from "ComponentRenderer.js";
 import MainLandingPage from "MainLandingPage.js";
 import ThankYouPage from "ThankYouPage.js";
-import Dash from "../src/components/features/Dash"
-import Reportpanel from "../src/components/features/Reportpanel"
+import Dash from "../src/components/features/Dash";
+import Reportpanel from "../src/components/features/Reportpanel";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import FullWidthWithImage from "components/hero/FullWidthWithImage";
 import ThreeColSimple from "components/features/ThreeColSimple";
@@ -27,25 +27,25 @@ import TwoColumnWithImageAndProfilePictureReview from "components/testimonials/T
 import ProfileThreeColGrid from "components/cards/ProfileThreeColGrid";
 import Menufinal from "components/hero/Menufinal";
 import Rout from "Rout";
-import Events from 'components/events/Events';
+import Events from "components/events/Events";
 function BodyRoutes() {
-    return (
-        <div>
-             <FullWidthWithImage/>
-      
-      <TwoColSingleFeatureWithStats2/>
-      <ThreeColWithSideImage/>
-      <TwoColWithButton/>
-      <Awards/>
-   <Events/>
-      <TwoColumnWithImageAndRating/>
-      <ThreeColSlider/>
-      <TwoColContactUsWithIllustration/>
-      <SimpleContactUs/>
-      <TwoColumnPrimaryBackground/>
-      <SimpleFiveColumn/>
-        </div>
-    )
+  return (
+    <div>
+      <FullWidthWithImage />
+
+      <TwoColSingleFeatureWithStats2 />
+      <ThreeColWithSideImage />
+      <TwoColWithButton />
+      <Awards />
+      <Events />
+      <TwoColumnWithImageAndRating />
+      <ThreeColSlider />
+      <TwoColContactUsWithIllustration />
+      <SimpleContactUs />
+      <TwoColumnPrimaryBackground />
+      <SimpleFiveColumn />
+    </div>
+  );
 }
 
-export default BodyRoutes
+export default BodyRoutes;

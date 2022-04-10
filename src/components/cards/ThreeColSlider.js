@@ -12,6 +12,7 @@ import { ReactComponent as ChevronRightIcon } from "feather-icons/dist/icons/che
 import im1 from "../components_images/12.JPG"
 import im2 from "../components_images/cyber1.png"
 import im3 from "../components_images/extreminar1.jpg"
+import im4 from "../components_images/ieeemeet.jpg"
 const Container = tw.div`relative`;
 const Content = tw.div`max-w-screen-xl mx-auto py-16 lg:py-20`;
 
@@ -93,9 +94,9 @@ export default () => {
   /* Change this according to your needs */
   const cards = [
     {
-      imageSrc: im2,
-      title: "Cyber Innovations in Defence",
-      description: `On the occasion of Independence Day, the enthusiastic team of the IEEE Delhi Section organized an  educative webinar titled: "C.I.D. - Cyber Innovations in Defence" to enlighten students regarding the scope of Cyber Technology and Warfare in the Indian Defence Sector..`,
+      imageSrc: im4,
+      title: "IEEE Delhi Section Execomm Meeting 2021",
+      description: ``,
       locationText: "Rome, Italy",
       pricingText: "USD 39/Day",
       rating: "4.8",

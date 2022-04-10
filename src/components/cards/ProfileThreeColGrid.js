@@ -29,13 +29,13 @@ import img17 from "../components_images/priyansh.jpeg"
 import img18 from "../features/gridimages/HarshitSingh_TechnicalActivitiesCoord\ -\ Harshit\ Singh.png"
 import img19 from "../features/gridimages/Aditi_Technical-Activity-Coordinator\ -\ Aditi\ tripathi.jpg"
 import img20 from "../features/gridimages/Screenshot_20210628-142429\ -\ shaleen\ poddar.jpg"
-import img21 from "../features/gridimages/VaibhavSrivastava_GraphicDesignLead\ -\ Vaibhav\ Srivastava.jpg"
+import img21 from "../components_images/vaibhav.jpg"
 import img22 from "../features/gridimages/Manas\ Das_Graphic\ Design\ Coordinator\ -\ Manas\ Das.jpg"
 import img23 from "../features/gridimages/Shalini\ Agrawal_\ Graphic\ Designing\ Coordinator\ -\ Shalini\ Agrawal.jpg"
 import img24 from "../features/gridimages/Tanisha_Editorial\ Lead\ -\ Tanisha\ Dhawan.JPG"
 import img25 from "../features/gridimages/AishwaryaChand_Editorial-Coordinator\ -\ Aishwarya\ Chand.jpeg"
 import img26 from "../features/gridimages/KashishGarg_EditorialCoordinator\ -\ Kashish\ Garg.jpeg"
-import img27 from "../features/gridimages/Pranav_Chauhan.webp"
+import img27 from "../components_images/pranav_final.webp"
 
 const HeadingContainer = tw.div``
 const Heading = tw(SectionHeading)``
