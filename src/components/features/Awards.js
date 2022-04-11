@@ -101,16 +101,6 @@ export default () => {
   /* Change this according to your needs */
   const cards = [
     {
-      imageSrc: im4,
-      title: "Richard E. Merwin Scholarship for Spring 2022 ",
-      description: `Mr. Ritwik Ranjan from IEEE DTU conferred with the coveted Richard E. Merwin Scholarship for Spring 2022 by the IEEE Computer Society.
-      The award is given in recognition of his exemplary leadership skills, active involvement in student activities and excellent academic achievements. He will also be serving as the IEEE Computer Society Student Ambassador for the upcoming session.`,
-      locationText: "Mr. Ritwik Ranjan",
-      locationText1: "IEEE DTU",
-      pricingText: "USD 39/Day",
-      rating: "4.8",
-    },
-    {
       imageSrc: im2,
       title: "Shri Pralhad P. Chhabria Award 2022",
       description: "Miss Shatakshi Singh of IEEE MUST conferred with the Shri Pralhad P. Chhabria Award for the Best Outgoing Student. This award is a clear reflection of her outstanding academic achievements and the sincere effort that she has demonstrated throughout her academic career.",
@@ -151,6 +141,16 @@ export default () => {
       pricingText: "USD 19/Day",
       rating: "5.0"
 
+    },
+    {
+      imageSrc: im4,
+      title: "Richard E. Merwin Scholarship for Spring 2022 ",
+      description: `Mr. Ritwik Ranjan from IEEE DTU conferred with the coveted Richard E. Merwin Scholarship for Spring 2022 by the IEEE Computer Society.
+      The award is given in recognition of his exemplary leadership skills, active involvement in student activities and excellent academic achievements. He will also be serving as the IEEE Computer Society Student Ambassador for the upcoming session.`,
+      locationText: "Mr. Ritwik Ranjan",
+      locationText1: "IEEE DTU",
+      pricingText: "USD 39/Day",
+      rating: "4.8",
     },
     {
       imageSrc: archit,

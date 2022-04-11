@@ -6,7 +6,10 @@
     background-size: cover;
     
 }
-
+.dslogo_h{
+    width: 300px;
+    margin-left: -12px;
+}
 		.meta-nav {
 			min-height: 40px;
     		background: #000000;
@@ -212,7 +215,7 @@
     align-items: center;
 }
 .h4mainpg{
-    color: rgb(65, 146, 213);
+    color: #1269b0ec;
     font-size: 38px;
     
 }
@@ -226,6 +229,7 @@
 }
 .type-mob{
     font-size: 24px;
+    color: #1269b0ec;
 }
 .gr{
     margin: 40px;

@@ -112,18 +112,18 @@ export default () => {
     {
       imageSrc: im1,
       title: "Robotronics",
-      description: "IEEE Delhi Section in collaboration with IEEE YMCA Student Branch initiated Robotronics, an e-hands-on workshop that enabled the students to get in-depth insights about the practical design of a Light Following Robot..",
+      description: "IEEE Delhi Section in collaboration with IEEE YMCA Student Branch initiated Robotronics, an e-hands-on workshop that enabled the students to get in-depth insights about the practical design of a Light Following Robot.",
       locationText: "Palo Alto, CA",
       pricingText: "USD 19/Day",
       rating: "5.0",
     },
     {
-      imageSrc: im3,
-      title: " IEEEXtreme 15.0",
-      description: "An enlightening session 'Xtreminar' for all the aspiring and enthusiastic Competitive Programmers to help them answer all the queries and provide them with a chance to interact with the exemplary teams from IEEEXtreme 14.0 and learn from their experiences. .",
-      locationText: "Ibiza, Spain",
-      pricingText: "USD 50/Day",
-      rating: 4.9,
+      imageSrc: im2,
+      title: "Cyber innovations in defence",
+      description: "On the occasion of Independence Day, the enthusiastic team of the IEEE Delhi Section brought an immensely educative webinar titled: `C.I.D. - Cyber Innovations in Defence`, which is solely initiated to enlighten the students regarding the scope of Cyber Technology and Warfare in the Indian Defence Sector.",
+      locationText: "Palo Alto, CA",
+      pricingText: "USD 19/Day",
+      rating: "5.0",
     },
     
   ]

@@ -12,6 +12,7 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 import Header, { LogoLink, NavLinks, NavLink as NavLinkBase } from "../headers/light.js";
 import img1 from "../components_images/ieeeimg.jpg"
 import img11 from "../features/thirdanime.gif"
+import dslogo from "../../components/logos/dslogo.png"
 import {
 
   useWindowWidth,
@@ -71,21 +72,7 @@ export default ({
     </NavLinks>
   ],
   
-  heading = (
-    <>
-  
-    
-      We are
-   
-     
-      <h6 className="h4mainpg">IEEE DELHI SECTION</h6>
-      
-      <span tw="text-blue-500"> <ReactTypingEffect className="type-mob" speed={100} eraseSpeed={50} cursorClassName="crname"
-          text={["STUDENT ACTIVITIES COMMITTEE"]}
-        /></span>
-              
-    </>
-  ),
+ 
   description = "IEEE Delhi Section is one of the 13 Sections in India Council coming under Asia-Pacific Region, the Region 10 of IEEE. ",
   primaryActionUrl = "#Event",
   primaryActionText = "Event Submission",
@@ -115,7 +102,14 @@ export default ({
           {onlyWidth<=639&&<StyledHeader links={navLinks} collapseBreakpointClass="sm" />}
          
           <Content>
-            <Heading>{heading}</Heading>
+            <Heading>We are
+   
+     
+  {onlyWidth>=1024? <h6 className="h4mainpg">IEEE DELHI SECTION</h6>:<img src={dslogo} className="dslogo_h"/>}
+   
+   <span tw="text-blue-500"> <ReactTypingEffect className="type-mob" speed={100} eraseSpeed={50} cursorClassName="crname"
+       text={["STUDENT ACTIVITIES COMMITTEE"]}
+     /></span></Heading>
             <Paragraph>{description}</Paragraph>
             <Actions>
               <a href={primaryActionUrl} className="action primaryAction">

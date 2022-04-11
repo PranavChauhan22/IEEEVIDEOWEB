@@ -65,8 +65,8 @@ export default ({
   //Change the statistics variable as you like, add or delete objects
   const defaultStatistics = [
     {
-      key: "Active Members",
-      value: "4848+"
+      key: "Overall Active Members",
+      value: "5000+"
     },
     {
       key: "Active Student Members",
@@ -98,7 +98,7 @@ export default ({
             <Description>{description}</Description>
             <Statistics>
               {statistics.map((statistic, index) => (
-                <Statistic key={index}>
+                <Statistic key={index} >
                   <Value>{statistic.value}</Value>
                   <Key>{statistic.key}</Key>
                 </Statistic>

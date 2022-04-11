@@ -72,7 +72,7 @@ Note: The financial support provision from Section is subject to approval. </h6>
                   </InputContainer>
                   <InputContainer tw="flex-1">
                   <Label htmlFor="name-input">Attach your proposal</Label>
-                    <TextArea id="message-input" name="Attach your proposal" placeholder="E.g. Attach your proposal in doc format"/>
+                    <TextArea id="message-input" name="Attach your proposal" placeholder="E.g. Attach the drive link of your proposal in doc format"/>
                   </InputContainer>
                   
                 </Column>
