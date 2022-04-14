@@ -150,7 +150,7 @@ function Rout() {
           <Route exact path="/Editions"  component={Editions} />
 
           <Route exact path="/Report" component={Reportpanel} />
-          <Route exact path="/Events" component={Dash} />
+          <Route exact path="/Event" component={Dash} />
         </Switch>
             </div>
       </div>

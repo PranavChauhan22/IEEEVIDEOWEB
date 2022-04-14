@@ -25,3 +25,15 @@
         height: 588px;
     }
   }
+
+.sc_h{
+  font-size: 20px;
+  font-weight: bold;
+}
+.sc_b{
+  font-size: 15px;
+}
+
+.special_cr{
+  margin-top: 40px;
+}

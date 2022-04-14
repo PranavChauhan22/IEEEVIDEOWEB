@@ -94,17 +94,23 @@ export default ({
               <HeadingDescription>{description2}</HeadingDescription>
               <HeadingDescription>{description3}</HeadingDescription>
               <HeadingDescription>{description4}</HeadingDescription>
-             
+              <div className="special_cr">
+          <div className="sc_h">Special Credits:</div>
+          <div className="sc_b">Vaibhav Srivastava, Tanisha Dhawan, Pranav Chauhan, Aishwarya Chand</div>
+          <div className="sc_b">Hemang Sinha, Manas Das, Kashish Garg, Shalini Agarwal</div>
+        </div>
             </HeadingInfoContainer>
           </HeadingColumn>
         <div style={{margin:"auto"}}>
-        <iframe className="iframedi" src="https://www.yumpu.com/en/embed/view/kMzBy4NCrfDZElWV" frameborder="0" allowfullscreen="true"  allowtransparency="true"></iframe>
+        <iframe className="iframedi" src="https://www.yumpu.com/en/embed/view/XbUn9dujCqyo3SIc" frameborder="0" allowfullscreen="true"  allowtransparency="true"></iframe>
         
    
        
 
         </div>
+        
         </ThreeColumn>
+        
       </Content>
     </Container>
   );

@@ -113,6 +113,35 @@ export default () => {
 
     },
     {
+      imageSrc: im4,
+      title: "Richard E. Merwin Scholarship for Spring 2022 ",
+      description: `Mr. Ritwik Ranjan from IEEE DTU conferred with the coveted Richard E. Merwin Scholarship for Spring 2022 by the IEEE Computer Society.
+      The award is given in recognition of his exemplary leadership skills, active involvement in student activities and excellent academic achievements. He will also be serving as the IEEE Computer Society Student Ambassador for the upcoming session.`,
+      locationText: "Mr. Ritwik Ranjan",
+      locationText1: "IEEE DTU",
+      pricingText: "USD 39/Day",
+      rating: "4.8",
+    },
+        
+    {
+      imageSrc: archit,
+      title: "IEEE India Council Award 2021 for Outstanding Young Professional Volunteer",
+      description: "Mr. Archit Goswami, IEEE Delhi Section SAC Member, has been given the IEEE India Council Award 2021 for Outstanding Young Professional Volunteer. With this prestigious honour, the IEEE India Council recognises his devotion and hard work, as well as his efforts to continue working in the IEEE community.",
+      locationText: "Mr. Archit Goswami",
+      pricingText: "USD 50/Day",
+      rating: 4.9,
+    },
+  {
+    imageSrc: im3,
+    title: "Larry K. Wilson Regional Student Volunteer Award",
+    description: "Mr. Virendra Pratap Singh Rathore of IEEE NCU awarded with the Larry K. Wilson Regional Student Volunteer Award. His unparalleled contribution to IEEE is greatly admired and he demonstrated a pattern of unwavering dedication to his Student Branch.",
+    locationText: "Mr. Virendra Pratap Singh Rathore",
+    locationText1: "IEEE NCU",
+    pricingText: "USD 19/Day",
+    rating: "5.0"
+
+  },
+    {
       imageSrc: ashwin,
       title: "IEEE India Council Award 2021 for Outstanding Student Volunteer",
       description: "Mr. J Ashwin Nair on receiving the IEEE India Council Award 2021 for Outstanding Student Volunteer.This distinguished award honours their spirit of volunteerism, as well as their exceptional leadership abilities and commitment to deal with challenging situations.",
@@ -132,34 +161,7 @@ export default () => {
       rating: "5.0"
 
     },
-    {
-      imageSrc: im3,
-      title: "Larry K. Wilson Regional Student Volunteer Award",
-      description: "Mr. Virendra Pratap Singh Rathore of IEEE NCU awarded with the Larry K. Wilson Regional Student Volunteer Award. His unparalleled contribution to IEEE is greatly admired and he demonstrated a pattern of unwavering dedication to his Student Branch.",
-      locationText: "Mr. Virendra Pratap Singh Rathore",
-      locationText1: "IEEE NCU",
-      pricingText: "USD 19/Day",
-      rating: "5.0"
 
-    },
-    {
-      imageSrc: im4,
-      title: "Richard E. Merwin Scholarship for Spring 2022 ",
-      description: `Mr. Ritwik Ranjan from IEEE DTU conferred with the coveted Richard E. Merwin Scholarship for Spring 2022 by the IEEE Computer Society.
-      The award is given in recognition of his exemplary leadership skills, active involvement in student activities and excellent academic achievements. He will also be serving as the IEEE Computer Society Student Ambassador for the upcoming session.`,
-      locationText: "Mr. Ritwik Ranjan",
-      locationText1: "IEEE DTU",
-      pricingText: "USD 39/Day",
-      rating: "4.8",
-    },
-    {
-      imageSrc: archit,
-      title: "IEEE India Council Award 2021 for Outstanding Young Professional Volunteer",
-      description: "Mr. Archit Goswami, IEEE Delhi Section SAC Member, has been given the IEEE India Council Award 2021 for Outstanding Young Professional Volunteer. With this prestigious honour, the IEEE India Council recognises his devotion and hard work, as well as his efforts to continue working in the IEEE community.",
-      locationText: "Mr. Archit Goswami",
-      pricingText: "USD 50/Day",
-      rating: 4.9,
-    },
     {
       imageSrc: sb1,
       title: "IEEE SPAx Funding for DELCON 2022",

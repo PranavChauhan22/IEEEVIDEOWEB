@@ -1,7 +1,7 @@
 import React from 'react'
 import { HiOutlineLogout } from 'react-icons/hi';
 import "./Dashboard.css"
-const Dash=({handleLogout})=> {
+const Dash=()=> {
    
     
     return (
