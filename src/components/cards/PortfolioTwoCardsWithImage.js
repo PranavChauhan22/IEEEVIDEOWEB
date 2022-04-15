@@ -1,6 +1,6 @@
 import React from "react";
 import tw from "twin.macro";
-import "./newsletter.css"
+import "./newsletter.css";
 import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
 import { SectionHeading, Subheading } from "components/misc/Headings.js";
@@ -9,17 +9,26 @@ import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
 import { ReactComponent as LocationIcon } from "feather-icons/dist/icons/map-pin.svg";
 import { ReactComponent as TimeIcon } from "feather-icons/dist/icons/clock.svg";
 import { ReactComponent as ArrowRightIcon } from "images/arrow-right-icon.svg";
-
+import pranav from "../components_images/pranav_final.webp";
+import hemang from "../features/gridimages/Hemang Sinha - Photograph - Hemang Sinha.JPG";
+import vaibhav from "../components_images/vaibhav.jpg";
+import tanisha from "../features/gridimages/Tanisha_Editorial Lead - Tanisha Dhawan.JPG";
+import aishwarya from "../features/gridimages/AishwaryaChand_Editorial-Coordinator - Aishwarya Chand.jpeg";
+import manas from "../features/gridimages/Manas Das_Graphic Design Coordinator - Manas Das.jpg";
+import kashish from "../features/gridimages/KashishGarg_EditorialCoordinator - Kashish Garg.jpeg";
+import shalini from "../features/gridimages/Shalini Agrawal_ Graphic Designing Coordinator - Shalini Agrawal.jpg";
 const Container = tw.div`relative`;
 const Content = tw.div`max-w-screen-xl mx-auto py-20 lg:py-24`;
 
 const ThreeColumn = tw.div`flex flex-wrap`;
 const Column = tw.div`xl:mr-12 xl:last:mr-0`;
-const HeadingColumn = styled(Column)(props => [
+const HeadingColumn = styled(Column)((props) => [
   tw`w-full xl:w-5/12`,
-  props.textOnLeft ? tw`xl:order-first` : tw`xl:order-last xl:ml-12 xl:mr-0`
+  props.textOnLeft ? tw`xl:order-first` : tw`xl:order-last xl:ml-12 xl:mr-0`,
 ]);
-const CardColumn = tw(Column)`w-full md:w-1/2 xl:w-3/12 mt-16 xl:mt-0 xl:last:ml-auto`;
+const CardColumn = tw(
+  Column
+)`w-full md:w-1/2 xl:w-3/12 mt-16 xl:mt-0 xl:last:ml-auto`;
 
 const HeadingInfoContainer = tw.div`text-center xl:text-left max-w-lg xl:max-w-none mx-auto xl:mx-0`;
 const HeadingTitle = tw(SectionHeading)`mt-4 xl:text-left leading-tight`;
@@ -32,9 +41,9 @@ const PrimaryLink = styled(PrimaryLinkBase)`
 `;
 
 const Card = tw.div`mx-auto xl:mx-0 xl:ml-auto max-w-sm md:max-w-xs lg:max-w-sm xl:max-w-xs`;
-const CardImage = styled.div(props => [
+const CardImage = styled.div((props) => [
   `background-image: url("${props.imageSrc}");`,
-  tw`h-80 bg-cover bg-center rounded`
+  tw`h-80 bg-cover bg-center rounded`,
 ]);
 
 const CardText = tw.div`mt-4`;
@@ -57,7 +66,6 @@ const CardMetaFeature = styled.div`
 `;
 const CardAction = tw(PrimaryButtonBase)`w-full mt-6`;
 
-
 export default ({
   subheading = "",
   headingHtmlComponent = (
@@ -65,7 +73,7 @@ export default ({
       Read our Latest <span tw="text-primary-500">Edition</span>
     </>
   ),
-  
+
   description1 = `IEEE Delhi Section Student Activities Committee Newsletter 2021, gives a glimpse of  the accomplishments made by its student members throughout the year.
   `,
   description2 = `
@@ -79,9 +87,8 @@ export default ({
   `,
   linkText = "",
   cardLinkText = "Read Case Study",
-  textOnLeft = false
+  textOnLeft = false,
 }) => {
-  
   return (
     <Container>
       <Content>
@@ -94,24 +101,64 @@ export default ({
               <HeadingDescription>{description2}</HeadingDescription>
               <HeadingDescription>{description3}</HeadingDescription>
               <HeadingDescription>{description4}</HeadingDescription>
-              <div className="special_cr">
-          <div className="sc_h">Special Credits:</div>
-          <div className="sc_b">Vaibhav Srivastava, Tanisha Dhawan, Pranav Chauhan, Aishwarya Chand</div>
-          <div className="sc_b">Hemang Sinha, Manas Das, Kashish Garg, Shalini Agarwal</div>
-        </div>
             </HeadingInfoContainer>
           </HeadingColumn>
-        <div style={{margin:"auto"}}>
-        <iframe className="iframedi" src="https://www.yumpu.com/en/embed/view/XbUn9dujCqyo3SIc" frameborder="0" allowfullscreen="true"  allowtransparency="true"></iframe>
-        
-   
-       
-
-        </div>
-        
+          <div style={{ margin: "auto" }}>
+            <iframe
+              className="iframedi"
+              src="https://www.yumpu.com/en/embed/view/XbUn9dujCqyo3SIc"
+              frameborder="0"
+              allowfullscreen="true"
+              allowtransparency="true"
+            ></iframe>
+          </div>
         </ThreeColumn>
-        
       </Content>
+      <div className="sc_txt">Special Credits</div>
+      <div className="cards_sc">
+        <div className="card_sc">
+          <img src={vaibhav} className="card_el" />
+          <div className="card_sc_txt">Vaibhav Srivastava</div>
+        </div>
+        <div className="card_sc">
+          <img src={tanisha} className="card_el" />
+          <div className="card_sc_txt">Tanisha Dhawan</div>
+        </div>
+        <div className="card_sc">
+          <img src={pranav} className="card_el" />
+          <div className="card_sc_txt">Pranav Chauhan</div>
+        </div>
+        <div className="card_sc">
+          <img src={aishwarya} className="card_el" />
+          <div className="card_sc_txt">Aishwarya Chand</div>
+        </div>
+       
+      </div>
+      <div className="cards_sc">
+      <div className="card_sc">
+          <img src={hemang} className="card_el" />
+          <div className="card_sc_txt">Hemang Sinha</div>
+        </div>
+        <div className="card_sc">
+          <img src={manas} className="card_el" />
+          <div className="card_sc_txt">Manas Das</div>
+        </div>
+        <div className="card_sc">
+          <img src={kashish} className="card_el" />
+          <div className="card_sc_txt">Kashish Garg</div>
+        </div>
+        <div className="card_sc">
+          <img src={shalini} className="card_el" />
+          <div className="card_sc_txt">Shalini Agarwal</div>
+        </div>
+       
+      </div>
     </Container>
   );
 };
+
+{
+  /* <div className="sc_h">Special Credits:</div>
+          <div className="sc_b">Vaibhav Srivastava, Tanisha Dhawan, Pranav Chauhan, Aishwarya Chand</div>
+          <div className="sc_b">Hemang Sinha, Manas Das, Kashish Garg, Shalini Agarwal</div> */
+}

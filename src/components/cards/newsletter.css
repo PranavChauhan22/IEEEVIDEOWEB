@@ -37,3 +37,29 @@
 .special_cr{
   margin-top: 40px;
 }
+.card_el{
+  width: 200px;  
+}
+.card_sc_txt{
+  font-size: 20px;
+  font-weight: bold;
+}
+.card_sc{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+.cards_sc{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.sc_txt{
+  color: #6415ff;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
