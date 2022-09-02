@@ -116,7 +116,7 @@
     margin: auto;
 }
 .headim{
-    height: 800px;
+   height: 200px;
     background-size: cover;
     margin: auto;
 }
@@ -214,6 +214,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .h4mainpg{
     color: #1269b0ec;
     font-size: 38px;
@@ -268,7 +269,8 @@
     text-align: center;
     font-weight: 400;
 }
-.igg1{
+
+.iggr1{
     background-image: url("../features/gridimages/J\ Ashwin\ Nair.jpeg");
     background-size: cover;
     width: 80px;
@@ -276,7 +278,7 @@
     margin: 10px;
     border-radius: 80px;
 }
-.igg2{
+.iggr2{
     background-image: url("../features/gridimages/Garima\ Patel.jpeg");
     background-size: cover;
     width: 80px;
@@ -284,7 +286,7 @@
     margin: 10px;
     border-radius: 80px;
 }
-.igg3{
+.iggr3{
     background-image: url("../features/gridimages/GaganSingh_SSR\ -\ IEEE\ Delhi\ SAC.jpg");
     background-size: cover;
     width: 80px;
@@ -292,7 +294,7 @@
     margin: 10px;
     border-radius: 80px;
 }
-.igg4{
+.iggr4{
     background-image: url("../features/gridimages/PiyushKumarSahoo_SSR.jpg");
     background-size: cover;
     width: 80px;
@@ -300,7 +302,7 @@
     margin: 10px;
     border-radius: 80px;
 }
-.igg5{
+.iggr5{
     background-image: url("../features/gridimages/Rachana_ma\'am.jpg");
     background-size: cover;
     width: 80px;
@@ -308,7 +310,7 @@
     margin: 10px;
     border-radius: 80px;
 }
-.igg6{
+.iggr6{
     background-image: url("../features/gridimages/Rashmi\ Agarwal.jpeg");
     background-size: cover;
     width: 80px;
@@ -316,7 +318,7 @@
     margin: 10px;
     border-radius: 80px;
 }
-.igg7{
+.iggr7{
     background-image: url("../features/gridimages/Mahesh_jangid.jpeg");
     background-size: cover;
     width: 80px;
@@ -324,7 +326,7 @@
     margin: 10px;
     border-radius: 80px;
 }
-.igg8{
+.iggr8{
     background-image: url("../features/gridimages/Archit\ goswami.jpeg");
     background-size: cover;
     width: 80px;
@@ -332,7 +334,7 @@
     margin: 10px;
     border-radius: 80px;
 }
-.igg9{
+.iggr9{
     background-image: url("../features/gridimages/Meenu\ Khurana_Chandigarsh_sub-sec.jpeg");
     background-size: cover;
     width: 80px;
@@ -340,7 +342,7 @@
     margin: 10px;
     border-radius: 80px;
 }
-.igg10{
+.iggr10{
     background-image: url("../features/gridimages/Aditi_Technical-Activity-Coordinator\ -\ Aditi\ tripathi.jpg");
     background-size: cover;
     width: 80px;
@@ -348,7 +350,7 @@
     margin: 10px;
     border-radius: 80px;
 }
-.igg11{
+.iggr11{
     background-image: url("../features/gridimages/AishwaryaChand_Editorial-Coordinator\ -\ Aishwarya\ Chand.jpeg");
     background-size: cover;
     width: 80px;
@@ -356,7 +358,7 @@
     margin: 10px;
     border-radius: 80px;
 }
-.igg12{
+.iggr12{
     background-image: url("../features/gridimages/Ansh\ Dudeja\ _Networking\ and\ Social\ media\ lead\ -\ Ansh\ Dudeja.jpeg");
     background-size: cover;
     width: 80px;
@@ -364,7 +366,7 @@
     margin: 10px;
     border-radius: 80px;
 }
-.igg13{
+.iggr13{
     background-image: url("../features/gridimages/Charu-Networking\ and\ Social\ Media\ Coordinator\ -\ 26_Charu\ Kaushik.jpeg");
     background-size: cover;
     width: 80px;
@@ -372,7 +374,7 @@
     margin: 10px;
     border-radius: 80px;
 }
-.igg14{
+.iggr14{
     background-image: url("../features/gridimages/Divita\ Gulati_NetworkingAndSocialMediaCoordinator\ -\ Divita\ Gulati.jpg");
     background-size: cover;
     width: 80px;
@@ -380,7 +382,7 @@
     margin: 10px;
     border-radius: 80px;
 }
-.igg15{
+.iggr15{
     background-image: url("../features/gridimages/HarshitSingh_TechnicalActivitiesCoord\ -\ Harshit\ Singh.png");
     background-size: cover;
     width: 80px;
@@ -388,7 +390,7 @@
     margin: 10px;
     border-radius: 80px;
 }
-.igg16{
+.iggr16{
     background-image: url("../features/gridimages/Hemang\ Sinha\ -\ Photograph\ -\ Hemang\ Sinha.JPG");
     background-size: cover;
     width: 80px;
@@ -396,7 +398,7 @@
     margin: 10px;
     border-radius: 80px;
 }
-.igg17{
+.iggr17{
     background-image: url("../features/gridimages/IMG_20210401_075648_410\ -\ Disha\ Vagrecha.jpg");
     background-size: cover;
     width: 80px;
@@ -404,7 +406,7 @@
     margin: 10px;
     border-radius: 80px;
 }
-.igg18{
+.iggr18{
     background-image: url("../features/gridimages/KashishGarg_EditorialCoordinator\ -\ Kashish\ Garg.jpeg");
     background-size: cover;
     width: 80px;
@@ -412,7 +414,7 @@
     margin: 10px;
     border-radius: 80px;
 }
-.igg19{
+.iggr19{
     background-image: url("../features/gridimages/khushikathuria_wiecoordinator\ -\ Khushi\ Kathuria.jpeg");
     background-size: cover;
     width: 80px;
@@ -420,7 +422,7 @@
     margin: 10px;
     border-radius: 80px;
 }
-.igg20{
+.iggr20{
     background-image: url("../features/gridimages/Light\ Fix\(1\)\ \(1\)\ -\ Priyansh\ Tyagi.jpg");
     background-size: cover;
     width: 80px;
@@ -428,7 +430,7 @@
     margin: 10px;
     border-radius: 80px;
 }
-.igg21{
+.iggr21{
     background-image: url("../features/gridimages/Manas\ Das_Graphic\ Design\ Coordinator\ -\ Manas\ Das.jpg");
     background-size: cover;
     width: 80px;
@@ -436,7 +438,7 @@
     margin: 10px;
     border-radius: 80px;
 }
-.igg22{
+.iggr22{
     background-image: url("../features/gridimages/Monalika_Networking_SocialMediaLead\ -\ Monalika.jpg");
     background-size: cover;
     width: 80px;
@@ -446,12 +448,13 @@
 }
 .imgt{
     background-repeat: no-repeat;
+    
 }
 .name1{
     font-size: 15px;
     color:rgb(110, 1, 213);
 }
-.igg23{
+.iggr23{
     background-image: url("../features/gridimages/Pallavi\ -\ Pallavi\ Singh.jpg");
     background-size: cover;
     width: 80px;
@@ -460,7 +463,7 @@
     border-radius: 80px;
 }
 
-.igg25{
+.iggr25{
     background-image: url("../features/gridimages/Pranav_Chauhan.webp");
     background-size: cover;
     width: 80px;
@@ -468,7 +471,7 @@
     margin: 10px;
     border-radius: 80px;
 }
-.igg26{
+.iggr26{
     background-image: url("../features/gridimages/Priti_WIE-Coordinator\ -\ Priti\ Gangwar.jpg");
     background-size: cover;
     width: 80px;
@@ -476,7 +479,7 @@
     margin: 10px;
     border-radius: 80px;
 }
-.igg27{
+.iggr27{
     background-image: url("../features/gridimages/Screenshot_20210628-142429\ -\ shaleen\ poddar.jpg");
     background-size: cover;
     width: 80px;
@@ -484,7 +487,7 @@
     margin: 10px;
     border-radius: 80px;
 }
-.igg28{
+.iggr28{
     background-image: url("../features/gridimages/Shalini\ Agrawal_\ Graphic\ Designing\ Coordinator\ -\ Shalini\ Agrawal.jpg");
     background-size: cover;
     width: 80px;
@@ -492,7 +495,7 @@
     margin: 10px;
     border-radius: 80px;
 }
-.igg29{
+.iggr29{
     background-image: url("../features/gridimages/Shambhavi_SSR\ -\ shambhavi\ khanna.JPG");
     background-size: cover;
     width: 80px;
@@ -500,7 +503,7 @@
     margin: 10px;
     border-radius: 80px;
 }
-.igg30{
+.iggr30{
     background-image: url("../features/gridimages/Sharone_SSR-Chandigarh\ -\ Sharone\ Verma.jpg");
     background-size: cover;
     width: 80px;
@@ -508,7 +511,7 @@
     margin: 10px;
     border-radius: 80px;
 }
-.igg32{
+.iggr32{
     background-image: url("../features/gridimages/Shubham\ singla_wiecoordinator\ -\ shubham\ purshottam\ singla.jpeg");
     background-size: cover;
     width: 80px;
@@ -516,7 +519,7 @@
     margin: 10px;
     border-radius: 80px;
 }
-.igg33{
+.iggr33{
     background-image: url("../features/gridimages/Tanisha_Editorial\ Lead\ -\ Tanisha\ Dhawan.JPG");
     background-size: cover;
     width: 80px;
@@ -524,7 +527,7 @@
     margin: 10px;
     border-radius: 80px;
 }
-.igg34{
+.iggr34{
     background-image: url("../components_images/vaibhav.jpg");
     background-size: cover;
     width: 80px;

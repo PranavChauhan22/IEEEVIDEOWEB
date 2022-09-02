@@ -44,13 +44,13 @@ export default class Toggle extends Component {
                         {(toggle==1)&&
                   <div className="hrflex">
               <div className="crdteam">
-                <div className="igg2" />
+                <div className="iggr2" />
                 <h4 className="crdtext crdtext1">Garima Patel</h4>
                 {/* <h4 className="crdtext crdtext2">Mentor</h4> */}
               </div>
                   
               <div className="crdteam">
-                <div className="igg1" />
+                <div className="iggr1" />
                 <h4 className="crdtext crdtext1">J Ashwin Nair</h4>
                 {/* <h4 className="crdtext crdtext2">Mentor</h4> */}
               </div>
@@ -62,12 +62,12 @@ export default class Toggle extends Component {
                         {(toggle==3)&&
                    <div className="hrflex">
                    <div className="crdteam">
-                     <div className="igg4" />
+                     <div className="iggr4" />
                      <h4 className="crdtext crdtext1">Piyush Kumar Sahoo</h4>
                      {/* <h4 className="crdtext crdtext3">Section Student Representative</h4> */}
                    </div>
                    <div className="crdteam">
-                     <div className="igg3" />
+                     <div className="iggr3" />
                      <h4 className="crdtext crdtext1">Gagan Singh</h4>
                      {/* <h4 className="crdtext crdtext3">Section Student Representative</h4> */}
                    </div>
@@ -78,13 +78,13 @@ export default class Toggle extends Component {
                         {(toggle==5)&&
                   <div className="hrflex">
                   <div className="crdteam">
-                    <div className="igg30" />
+                    <div className="iggr30" />
                     <h4 className="crdtext crdtext1">Sharone Verma</h4>
                     <h6 className="bluebadge1">Chandigarh</h6>
                     {/* <h4 className="crdtext crdtext3">Subsection Representative</h4> */}
                   </div>
                   <div className="crdteam">
-                    <div className="igg29" />
+                    <div className="iggr29" />
                     <h4 className="crdtext crdtext1">Shambhavi Khanna</h4>
                     <h6 className="bluebadge1">Rajasthan</h6>
                     {/* <h4 className="crdtext crdtext3">Subsection Representative</h4> */}
@@ -95,25 +95,25 @@ export default class Toggle extends Component {
                         }
                         {(toggle==7)&&
                    <div className="hrflex">
-                   <div className="crdteam">
-                     <div className="igg23" />
-                     <h4 className="crdtext crdtext1">Pallavi Singh</h4>
+                   <div className="crdteam" style={{marginTop:"38px"}}>
+                     <div className="iggr23" />
+                     <h4 className="crdtext crdtext1 ">Pallavi Singh</h4>
                      <h6 className="bluebadge1">Lead</h6>
                      {/* <h4 className="crdtext crdtext2">WIE</h4> */}
                    </div>
                    <div className="crdteam">
-                     <div className="igg32" />
+                     <div className="iggr32" />
                      <h4 className="crdtext crdtext1">Shubham Singla</h4>
                      {/* <h4 className="crdtext crdtext2">WIE</h4> */}
                    </div>
                    <div className="crdteam">
-                     <div className="igg19" />
+                     <div className="iggr19" />
                      <h4 className="crdtext crdtext1">Khushi Kathuria</h4>
                      {/* <h4 className="crdtext crdtext2">WIE</h4> */}
                     
                    </div>
                    <div className="crdteam">
-                     <div className="igg26" />
+                     <div className="iggr26" />
                      <h4 className="crdtext crdtext1">Priti Gangwar</h4>
                      {/* <h4 className="crdtext crdtext2">WIE</h4> */}
                    </div>
@@ -123,34 +123,34 @@ export default class Toggle extends Component {
                  }
                         {(toggle==9)&&
                     <div className="hrflex">
-                    <div className="crdteam">
-                      <div className="igg22" />
+                   <div className="crdteam" style={{marginTop:"38px"}}>
+                      <div className="iggr22" />
                       <h4 className="crdtext crdtext1">Monalika Kapoor</h4>
                       <h6 className="bluebadge1">Lead</h6>
                       {/* <h4 className="crdtext crdtext2">NSM</h4> */}
                     </div>
                     <div className="crdteam">
-                      <div className="igg16" />
+                      <div className="iggr16" />
                       <h4 className="crdtext crdtext1">Hemang Sinha</h4>
                       {/* <h4 className="crdtext crdtext2">NSM</h4> */}
                     </div>
                     <div className="crdteam">
-                      <div className="igg14" />
+                      <div className="iggr14" />
                       <h4 className="crdtext crdtext1">Divita Gulati</h4>
                       {/* <h4 className="crdtext crdtext2">NSM</h4> */}
                     </div>
                     <div className="crdteam">
-                      <div className="igg17" />
+                      <div className="iggr17" />
                       <h4 className="crdtext crdtext1">Disha Vagrecha</h4>
                       {/* <h4 className="crdtext crdtext2">NSM</h4> */}
                     </div>
                     <div className="crdteam">
-                      <div className="igg12" />
+                      <div className="iggr12" />
                       <h4 className="crdtext crdtext1">Ansh Dudeja</h4>
                       {/* <h4 className="crdtext crdtext2">NSM</h4> */}
                     </div>
                     <div className="crdteam">
-                      <div className="igg13" />
+                      <div className="iggr13" />
                       <h4 className="crdtext crdtext1">Charu Kaushik</h4>
                       {/* <h4 className="crdtext crdtext2">NSM</h4> */}
                     </div>
@@ -162,24 +162,24 @@ export default class Toggle extends Component {
                  }
                         {(toggle==11)&&
                     <div className="hrflex">
-                    <div className="crdteam">
-                      <div className="igg20" />
+                   <div className="crdteam" style={{marginTop:"38px"}}>
+                      <div className="iggr20" />
                       <h4 className="crdtext crdtext1">Priyansh Tyagi</h4>
                       <h6 className="bluebadge1">Lead</h6>
                       {/* <h4 className="crdtext crdtext2">TAC</h4> */}
                     </div>
                     <div className="crdteam">
-                      <div className="igg15" />
+                      <div className="iggr15" />
                       <h4 className="crdtext crdtext1">Harshit Singh</h4>
                       {/* <h4 className="crdtext crdtext2">TAC</h4> */}
                     </div>
                     <div className="crdteam">
-                      <div className="igg10" />
+                      <div className="iggr10" />
                       <h4 className="crdtext crdtext1">Aditi Tripathi</h4>
                       {/* <h4 className="crdtext crdtext2">TAC</h4> */}
                     </div>
                     <div className="crdteam">
-                      <div className="igg27" />
+                      <div className="iggr27" />
                       <h4 className="crdtext crdtext1">Shaleen Poddar</h4>
                       {/* <h4 className="crdtext crdtext2">TAC</h4> */}
                     </div>
@@ -189,19 +189,19 @@ export default class Toggle extends Component {
                  }
                         {(toggle==13)&&
                          <div className="hrflex">
-                         <div className="crdteam">
-                           <div className="igg34" />
+                   <div className="crdteam" style={{marginTop:"38px"}}>
+                           <div className="iggr34" />
                            <h4 className="crdtext crdtext1">Vaibhav Srivastava</h4>
                            <h6 className="bluebadge1">Lead</h6>
                            {/* <h4 className="crdtext crdtext3">Graphic Designing</h4> */}
                          </div>
                          <div className="crdteam">
-                           <div className="igg21" />
+                           <div className="iggr21" />
                            <h4 className="crdtext crdtext1">Manas Das</h4>
                            {/* <h4 className="crdtext crdtext3">Graphic Designing</h4> */}
                          </div>
                          <div className="crdteam">
-                           <div className="igg28" />
+                           <div className="iggr28" />
                            <h4 className="crdtext crdtext1">Shalini Agarwal</h4>
                            {/* <h4 className="crdtext crdtext3">Graphic Designing</h4> */}
                          </div>
@@ -213,21 +213,21 @@ export default class Toggle extends Component {
                  }
                         {(toggle==15)&&
                         <div className="hrflex">
-                        <div className="crdteam">
-                          <div className="igg33" />
+                     <div className="crdteam" style={{marginTop:"38px"}}>
+                          <div className="iggr33" />
                           <h4 className="crdtext crdtext1">Tanisha Dhawan</h4>
                           <h6 className="bluebadge1">Lead</h6>
                           {/* <h4 className="crdtext crdtext3">Editorial</h4> */}
                         </div>
                         
                         <div className="crdteam">
-                          <div className="igg11" />
+                          <div className="iggr11" />
                           <h4 className="crdtext crdtext1">Aishwarya Chand</h4>
                           {/* <h4 className="crdtext crdtext3">Editorial</h4> */}
                         </div>
                         
                         <div className="crdteam">
-                          <div className="igg18" />
+                          <div className="iggr18" />
                           <h4 className="crdtext crdtext1">Kashish Garg</h4>
                           {/* <h4 className="crdtext crdtext3">Editorial</h4> */}
                         </div>
@@ -240,7 +240,7 @@ export default class Toggle extends Component {
                         {(toggle==17)&&
                          <div className="hrflex">
                          <div className="crdteam">
-                           <div className="igg25" />
+                           <div className="iggr25" />
                            <h4 className="crdtext crdtext1">Pranav Chauhan</h4>
                            <h6 className="bluebadge1">Lead</h6>
                            {/* <h4 className="crdtext crdtext3">Web Administrator</h4> */}

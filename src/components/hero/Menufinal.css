@@ -5,6 +5,18 @@
 	top: 60px;
 
 }
+.a_a_team{
+
+	margin-left: 30px;
+	font-weight: bold;
+}
+.a_team{
+	font-weight: bold;
+	font-size: 15px;
+	margin: 20px;
+	padding: 10px;
+	padding-top: 20px;
+}
 .Logo2{
 	height: 35px;
 	position:absolute;

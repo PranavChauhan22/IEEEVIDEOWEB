@@ -15,7 +15,7 @@ import ThankYouPage from "ThankYouPage.js";
 import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import FullWidthWithImage from "components/hero/FullWidthWithImage";
 import ThreeColSimple from "components/features/ThreeColSimple";
-import ThreeColWithSideImage from "components/features/ThreeColWithSideImage";
+import ThreeColWithSideImage from "components/features/SlidingGallery";
 import TwoColSingleFeatureWithStats2 from "components/features/TwoColSingleFeatureWithStats2";
 import ThreeColSlider from "components/cards/ThreeColSlider";
 import TwoColWithSteps from "components/features/TwoColWithSteps";

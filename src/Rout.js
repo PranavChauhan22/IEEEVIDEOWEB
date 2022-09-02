@@ -14,7 +14,7 @@ import ThankYouPage from "ThankYouPage.js";
 import {HashRouter as Router, Switch, Route } from "react-router-dom";
 import FullWidthWithImage from "components/hero/FullWidthWithImage";
 import ThreeColSimple from "components/features/ThreeColSimple";
-import ThreeColWithSideImage from "components/features/ThreeColWithSideImage";
+import ThreeColWithSideImage from "components/features/SlidingGallery";
 import TwoColSingleFeatureWithStats2 from "components/features/TwoColSingleFeatureWithStats2";
 import ThreeColSlider from "components/cards/ThreeColSlider";
 import TwoColWithSteps from "components/features/TwoColWithSteps";
@@ -34,6 +34,7 @@ import TwoColumnWithImageAndProfilePictureReview from "components/testimonials/T
 import ProfileThreeColGrid from "components/cards/ProfileThreeColGrid";
 import Menufinal from "components/hero/Menufinal";
 import BodyRoutes from "BodyRoutes";
+import ProfileThreeColGrid2 from "components/cards/ProfileThreeColGrid2";
 
 function Rout() {
     return (
@@ -49,6 +50,11 @@ function Rout() {
             exact
             path="/IEEEDELHISSN_TEAM"
             component={ProfileThreeColGrid}
+            />
+          <Route
+            exact
+            path="/IEEEDELHISSN_TEAM2"
+            component={ProfileThreeColGrid2}
             />
 
           <Route exact path="/Editions"  component={Editions} />

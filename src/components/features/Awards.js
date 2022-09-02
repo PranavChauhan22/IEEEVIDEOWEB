@@ -14,12 +14,12 @@ import im2 from "../components_images/shatakshi.jpeg"
 import im3 from "../components_images/vps.jpeg"
 import im4 from "../components_images/ritwik.jpeg"
 import piyush from "../components_images/Piyush_new.jpg"
-import ashwin from "../features/gridimages/J Ashwin Nair.jpeg"
 import archit from "../features/gridimages/Archit goswami.jpeg"
 import sb1 from "../components_images/sb1.webp"
 import sb2 from "../components_images/sb2.webp"
 import sb3 from "../components_images/sb3.webp"
-
+import garima from "../features/gridimages/Garima Patel.jpeg"
+import ashwin from "../features/gridimages/J Ashwin Nair.jpeg"
 const Container = tw.div`relative`;
 const Content = tw.div`max-w-screen-xl mx-auto py-16 lg:py-20`;
 
@@ -100,6 +100,30 @@ export default () => {
 
   /* Change this according to your needs */
   const cards = [
+    {
+      imageSrc: garima,
+      title: "Special Recognition: IEEE Region-10 SAC Outstanding Volunteer Award",
+      description: "Ms Garima Patel conferred with the prestigious Special Recognition: IEEE Region-10 SAC Outstanding Volunteer Award. This accomplishment truly exemplifies the hard work, perseverance, and determination that she has demonstrated while pursuing their passion.",
+      locationText: "Ms. Garima Patel",
+      locationText1: "IEEE MUST",
+      pricingText: "USD 50/Day",
+      rating: 4.9,
+      
+ 
+
+    },
+    {
+      imageSrc: ashwin,
+      title: "Special Recognition: IEEE Region-10 SAC Outstanding Volunteer Award",
+      description: "Mr J. Ashwin Nair conferred with the prestigious Special Recognition: IEEE Region-10 SAC Outstanding Volunteer Award. This accomplishment truly exemplifies the hard work, perseverance, and determination that he has demonstrated while pursuing their passion.",
+      locationText: "Mr J. Ashwin Nair",
+      locationText1: "IEEE MUST",
+      pricingText: "USD 50/Day",
+      rating: 4.9,
+      
+ 
+
+    },
     {
       imageSrc: im2,
       title: "Shri Pralhad P. Chhabria Award 2022",

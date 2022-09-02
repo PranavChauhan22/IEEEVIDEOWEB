@@ -92,16 +92,16 @@ export default () => {
           <ColumnHeading>Contact</ColumnHeading>
           <LinkList>
             <LinkListItem>
-              <Link href="#">Piyush Kumar Sahoo</Link>
+              <Link href="#">Kailash Maurya</Link>
             </LinkListItem>
             <LinkListItem>
-              <Link href="#">+91 9891789605</Link>
+              <Link href="#">+91 72898 14216</Link>
             </LinkListItem>
             <LinkListItem>
-              <Link href="#">Gagan Singh</Link>
+              <Link href="#">Anshul Yadav</Link>
             </LinkListItem>
             <LinkListItem>
-              <Link href="#">+91 9999566832</Link>
+              <Link href="#">+91 93541 16637</Link>
             </LinkListItem>
             
           </LinkList>

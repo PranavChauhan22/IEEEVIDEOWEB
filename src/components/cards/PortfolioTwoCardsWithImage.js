@@ -12,7 +12,7 @@ import { ReactComponent as ArrowRightIcon } from "images/arrow-right-icon.svg";
 import pranav from "../components_images/pranav_final.webp";
 import hemang from "../features/gridimages/Hemang Sinha - Photograph - Hemang Sinha.JPG";
 import vaibhav from "../components_images/vaibhav.jpg";
-import tanisha from "../features/gridimages/Tanisha_Editorial Lead - Tanisha Dhawan.JPG";
+import tanisha from "../features/gridimages2/Tanisha\ Dhawan.JPG";
 import aishwarya from "../features/gridimages/AishwaryaChand_Editorial-Coordinator - Aishwarya Chand.jpeg";
 import manas from "../features/gridimages/Manas Das_Graphic Design Coordinator - Manas Das.jpg";
 import kashish from "../features/gridimages/KashishGarg_EditorialCoordinator - Kashish Garg.jpeg";
@@ -70,7 +70,7 @@ export default ({
   subheading = "",
   headingHtmlComponent = (
     <>
-      Read our Latest <span tw="text-primary-500">Edition</span>
+      Read our Latest <span style={{color:"rgb(66,153,225)"}}>Edition</span>
     </>
   ),
 
@@ -114,44 +114,181 @@ export default ({
           </div>
         </ThreeColumn>
       </Content>
-      <div className="sc_txt">Special Credits</div>
-      <div className="cards_sc">
-        <div className="card_sc">
-          <img src={vaibhav} className="card_el" />
-          <div className="card_sc_txt">Vaibhav Srivastava</div>
+      <div className="sc_txt" style={{color:"rgb(66,153,225)"}}>Special Credits</div>
+      
+      <div>
+        
+
+        <div className="card_sac_ssn">
+          <div class="slide-card" style={{ height: "240px" }}>
+            <div class="slide-card-content">
+              <div class="image">
+                <img src={vaibhav} />
+              </div>
+
+              <div class="media-icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-github"></i>
+              </div>
+
+              <div
+                class="name"
+                style={{ color: "white", fontSize: "18px", marginTop: "10px" }}
+              >
+                Vaibhav Srivastava
+              </div>
+            </div>
+            
+          </div>
+          <div class="slide-card" style={{ height: "240px" }}>
+            <div class="slide-card-content">
+              <div class="image">
+              <img src={tanisha} />
+              </div>
+
+              <div class="media-icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-github"></i>
+              </div>
+
+              <div
+                class="name"
+                style={{ color: "white", fontSize: "18px", marginTop: "10px" }}
+              >
+                Tanisha Dhawan
+              </div>
+            </div>
+            
+          </div>
+          <div class="slide-card" style={{ height: "240px" }}>
+            <div class="slide-card-content">
+              <div class="image">
+              <img src={pranav} />
+              </div>
+
+              <div class="media-icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-github"></i>
+              </div>
+
+              <div
+                class="name"
+                style={{ color: "white", fontSize: "18px", marginTop: "10px" }}
+              >
+                Pranav Chauhan
+              </div>
+            </div>
+            
+          </div>
+          <div class="slide-card" style={{ height: "240px" }}>
+            <div class="slide-card-content">
+              <div class="image">
+              <img src={aishwarya} />
+              </div>
+
+              <div class="media-icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-github"></i>
+              </div>
+
+              <div
+                class="name"
+                style={{ color: "white", fontSize: "18px", marginTop: "10px" }}
+              >
+                Aishwarya Chand
+              </div>
+            </div>
+            
+          </div>
+          <div class="slide-card" style={{ height: "240px" }}>
+            <div class="slide-card-content">
+              <div class="image">
+              <img src={hemang} />
+              </div>
+
+              <div class="media-icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-github"></i>
+              </div>
+
+              <div
+                class="name"
+                style={{ color: "white", fontSize: "18px", marginTop: "10px" }}
+              >
+                Hemang Sinha
+              </div>
+            </div>
+            
+          </div>
+          <div class="slide-card" style={{ height: "240px" }}>
+            <div class="slide-card-content">
+              <div class="image">
+              <img src={manas} />
+              </div>
+
+              <div class="media-icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-github"></i>
+              </div>
+
+              <div
+                class="name"
+                style={{ color: "white", fontSize: "18px", marginTop: "10px" }}
+              >
+                Manas Das
+              </div>
+            </div>
+            
+          </div>
+          <div class="slide-card" style={{ height: "240px" }}>
+            <div class="slide-card-content">
+              <div class="image">
+              <img src={kashish} />
+              </div>
+
+              <div class="media-icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-github"></i>
+              </div>
+
+              <div
+                class="name"
+                style={{ color: "white", fontSize: "18px", marginTop: "10px" }}
+              >
+                Kashish Garg
+              </div>
+            </div>
+            
+          </div>
+          <div class="slide-card" style={{ height: "240px" }}>
+            <div class="slide-card-content">
+              <div class="image">
+              <img src={shalini} />
+              </div>
+
+              <div class="media-icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-github"></i>
+              </div>
+
+              <div
+                class="name"
+                style={{ color: "white", fontSize: "18px", marginTop: "10px" }}
+              >
+                Shalini Agarwal
+              </div>
+            </div>
+            
+          </div>
         </div>
-        <div className="card_sc">
-          <img src={tanisha} className="card_el" />
-          <div className="card_sc_txt">Tanisha Dhawan</div>
-        </div>
-        <div className="card_sc">
-          <img src={pranav} className="card_el" />
-          <div className="card_sc_txt">Pranav Chauhan</div>
-        </div>
-        <div className="card_sc">
-          <img src={aishwarya} className="card_el" />
-          <div className="card_sc_txt">Aishwarya Chand</div>
-        </div>
-       
-      </div>
-      <div className="cards_sc">
-      <div className="card_sc">
-          <img src={hemang} className="card_el" />
-          <div className="card_sc_txt">Hemang Sinha</div>
-        </div>
-        <div className="card_sc">
-          <img src={manas} className="card_el" />
-          <div className="card_sc_txt">Manas Das</div>
-        </div>
-        <div className="card_sc">
-          <img src={kashish} className="card_el" />
-          <div className="card_sc_txt">Kashish Garg</div>
-        </div>
-        <div className="card_sc">
-          <img src={shalini} className="card_el" />
-          <div className="card_sc_txt">Shalini Agarwal</div>
-        </div>
-       
       </div>
     </Container>
   );

@@ -1,25 +1,25 @@
 import React from "react";
 import tw from "twin.macro";
-import Fade from 'react-reveal/Fade';
+import Fade from "react-reveal/Fade";
 
-import ReactTypingEffect from 'react-typing-effect';
-import { BsInstagram } from 'react-icons/bs';
-import { GrLinkedinOption } from 'react-icons/gr';
-import { FaFacebookF } from 'react-icons/fa';
-import "../features/stylee.css"
+import ReactTypingEffect from "react-typing-effect";
+import { BsInstagram } from "react-icons/bs";
+import { GrLinkedinOption } from "react-icons/gr";
+import { FaFacebookF } from "react-icons/fa";
+import "../features/stylee.css";
+import autogif from "../gifs/gifauto.gif"
 import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
-import Header, { LogoLink, NavLinks, NavLink as NavLinkBase } from "../headers/light.js";
-import img1 from "../components_images/ieeeimg.jpg"
-import img11 from "../features/thirdanime.gif"
-import dslogo from "../../components/logos/dslogo.png"
-import {
-
-  useWindowWidth,
-
-} from '@react-hook/window-size'
+import Header, {
+  LogoLink,
+  NavLinks,
+  NavLink as NavLinkBase,
+} from "../headers/light.js";
+import img1 from "../components_images/ieeeimg.jpg";
+import img11 from "../features/thirdanime.gif";
+import dslogo from "../../components/logos/dslogo.png";
+import { useWindowWidth } from "@react-hook/window-size";
 import Menufinal from "./Menufinal";
-
 
 const StyledHeader = styled(Header)`
   ${tw`justify-between`}
@@ -60,71 +60,80 @@ const Actions = styled.div`
 export default ({
   navLinks = [
     <NavLinks key={1}>
-
-      
-
-
-
-     
-    
       <NavLink href="#Editions">Newsletter</NavLink>
       <NavLink href="#Report">Articles</NavLink>
-    </NavLinks>
+    </NavLinks>,
   ],
-  
- 
+
   description = "IEEE Delhi Section is one of the 13 Sections in India Council coming under Asia-Pacific Region, the Region 10 of IEEE. ",
   primaryActionUrl = "#Event",
   primaryActionText = "Event Submission",
   secondaryActionUrl = "#eventpro",
-  secondaryActionText = "Event Collaboration"
+  secondaryActionText = "Event Collaboration",
 }) => {
-  var onlyWidth=useWindowWidth();
-  
-  
+  var onlyWidth = useWindowWidth();
+
   return (
     <div>
-       <div class="meta-nav">
-		<p id="ieee-meta-a"><a href="https://www.ieee.org/index.html">IEEE.org</a> &#160;|&#160; <a href="https://www.ieeexplore.ieee.org/Xplore/guesthome.jsp">IEEE <em>Xplore</em> Digital Library</a> &#160;|&#160; <a href="https://standards.ieee.org/">IEEE Standards</a> &#160;|&#160; <a href="https://spectrum.ieee.org/">IEEE Spectrum</a> &#160;|&#160; <a href="https://www.ieee.org/sitemap.html">More Sites</a></p>
+      <div class="meta-nav">
+        <p id="ieee-meta-a">
+          <a href="https://www.ieee.org/index.html">IEEE.org</a> &#160;|&#160;{" "}
+          <a href="https://www.ieeexplore.ieee.org/Xplore/guesthome.jsp">
+            IEEE <em>Xplore</em> Digital Library
+          </a>{" "}
+          &#160;|&#160; <a href="https://standards.ieee.org/">IEEE Standards</a>{" "}
+          &#160;|&#160; <a href="https://spectrum.ieee.org/">IEEE Spectrum</a>{" "}
+          &#160;|&#160;{" "}
+          <a href="https://www.ieee.org/sitemap.html">More Sites</a>
+        </p>
 
-		<p id="meta-ieee-logo">
- 			<a href="https://www.ieee.org/join" class="joinIEEE">Join IEEE</a>
-		</p>
+        <p id="meta-ieee-logo">
+          <a href="https://www.ieee.org/join" class="joinIEEE">
+            Join IEEE
+          </a>
+        </p>
+      </div>
+      <div>
+        {onlyWidth > 639 && <Menufinal />}
 
-    </div>
-    <div>
-     
-          {onlyWidth>639&&<Menufinal/>}
-          
+        <TwoColumn>
+          <LeftColumn>
+            {onlyWidth <= 639 && (
+              <StyledHeader links={navLinks} collapseBreakpointClass="sm" />
+            )}
 
-      <TwoColumn>
-        <LeftColumn>
-          {onlyWidth<=639&&<StyledHeader links={navLinks} collapseBreakpointClass="sm" />}
-         
-          <Content>
-            <Heading>We are
-   
-     
-  {onlyWidth>=1024? <h6 className="h4mainpg">IEEE DELHI SECTION</h6>:<img src={dslogo} className="dslogo_h"/>}
-   
-   <span tw="text-blue-500"> <ReactTypingEffect className="type-mob" speed={100} eraseSpeed={50} cursorClassName="crname"
-       text={["STUDENT ACTIVITIES COMMITTEE"]}
-     /></span></Heading>
-            <Paragraph>{description}</Paragraph>
-            <Actions>
-              <a href={primaryActionUrl} className="action primaryAction">
-                {primaryActionText}
-              </a>
-              
-            </Actions>
-          </Content>
-        </LeftColumn>
-        <Fade up duration={3000}>
-
-        <img src={img1} className="headim"/>
-        </Fade>
-      </TwoColumn>
-    </div>
+            <Content>
+              <Heading>
+                We are
+                {onlyWidth >= 1024 ? (
+                  <h6 className="h4mainpg">IEEE DELHI SECTION</h6>
+                ) : (
+                  <img src={dslogo} className="dslogo_h" />
+                )}
+                <span tw="text-blue-500">
+                  {" "}
+                  <ReactTypingEffect
+                    className="type-mob"
+                    speed={100}
+                    eraseSpeed={50}
+                    cursorClassName="crname"
+                    text={["STUDENT ACTIVITIES COMMITTEE"]}
+                  />
+                </span>
+              </Heading>
+              <Paragraph>{description}</Paragraph>
+              <Actions>
+                <a href={primaryActionUrl} className="action primaryAction">
+                  {primaryActionText}
+                </a>
+              </Actions>
+            </Content>
+          </LeftColumn>
+          <Fade up duration={3000}>
+            <img src={autogif} className="headim" />
+          </Fade>
+        </TwoColumn>
+      </div>
     </div>
   );
 };

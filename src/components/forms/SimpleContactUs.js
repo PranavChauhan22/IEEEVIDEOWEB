@@ -52,7 +52,7 @@ Note: The financial support provision from Section is subject to approval. </h6>
     type="hidden"
     name="_redirect"
     
-    value="https://delhiieeeweb.web.app/#/"
+    value="https://ieeedelhisac.in/#/"
   />
               <TwoColumn>
                 <Column>

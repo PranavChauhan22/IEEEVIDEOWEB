@@ -13,6 +13,7 @@ import im1 from "../components_images/12.JPG"
 import im2 from "../components_images/cyber1.png"
 import im3 from "../components_images/extreminar1.jpg"
 import im4 from "../components_images/ieeemeet.jpg"
+import im5 from "../features/gridimages2/ac2022.png"
 const Container = tw.div`relative`;
 const Content = tw.div`max-w-screen-xl mx-auto py-16 lg:py-20`;
 
@@ -93,6 +94,15 @@ export default () => {
 
   /* Change this according to your needs */
   const cards = [
+
+    {
+      imageSrc: im5,
+      title: "Award Ceremony 2022",
+      description: ``,
+      locationText: "Rome, Italy",
+      pricingText: "USD 39/Day",
+      rating: "4.8",
+    },
     {
       imageSrc: im4,
       title: "IEEE Delhi Section Execomm Meeting 2021",
@@ -101,6 +111,7 @@ export default () => {
       pricingText: "USD 39/Day",
       rating: "4.8",
     },
+    
     {
       imageSrc: im3,
       title: " IEEEXtreme 15.0",

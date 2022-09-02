@@ -12,14 +12,9 @@ import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
 
 import TeamIllustrationSrc from "images/team-illustration-2.svg";
 import { ReactComponent as SvgDotPattern } from "images/dot-pattern.svg";
-import Toggle from "./Toggle";
+import Toggle2 from "./Toggle2";
 import Textani from "./Textani";
-import {
-
-  useWindowWidth,
-
-} from '@react-hook/window-size'
-
+import { useWindowWidth } from "@react-hook/window-size";
 
 const Container = tw.div`relative`;
 const TwoColumn = tw.div`flex flex-col md:flex-row justify-between max-w-screen-xl mx-auto py-20 md:py-24 items-center`;
@@ -59,12 +54,12 @@ export default ({
   subheading = "Our Expertise",
   heading = (
     <>
-      Designed & Developed by <span tw="text-blue-500">IEEE DELHI SSN.</span>
+      IEEE DELHI SSN <span tw="text-blue-500">2022-2023.</span>
     </>
   ),
   description = "Teamwork is the ability to work together toward a common vision. The ability to direct individual accomplishments toward organizational objectives. It is the fuel that allows common people to attain uncommon results.",
   primaryButtonText = "Know the team",
-  primaryButtonUrl = "#IEEEDELHISSN_TEAM",
+  primaryButtonUrl = "#IEEEDELHISSN_TEAM2",
   imageSrc = TeamIllustrationSrc,
   buttonRounded = true,
   imageRounded = true,
@@ -75,26 +70,19 @@ export default ({
   imageDecoratorBlobCss = null,
   textOnLeft = true,
 }) => {
-  var onlyWidth=useWindowWidth();
+  var onlyWidth = useWindowWidth();
   // The textOnLeft boolean prop can be used to display either the text on left or right side of the image.
 
   return (
     <Container>
-      
       <TwoColumn>
-<Fade >
-
-{onlyWidth>=768&& 
-        <div className="alpl">
-<Toggle/>
-        </div>
-}
-</Fade>
-      
-
-
-
-
+        <Fade>
+          {onlyWidth >= 768 && (
+            <div className="alpl">
+              <Toggle2 />
+            </div>
+          )}
+        </Fade>
 
         <TextColumn textOnLeft={textOnLeft}>
           <TextContent>

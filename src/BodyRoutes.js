@@ -7,7 +7,7 @@ import Reportpanel from "../src/components/features/Reportpanel";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import FullWidthWithImage from "components/hero/FullWidthWithImage";
 import ThreeColSimple from "components/features/ThreeColSimple";
-import ThreeColWithSideImage from "components/features/ThreeColWithSideImage";
+import ThreeColWithSideImage from "components/features/SlidingGallery";
 import TwoColSingleFeatureWithStats2 from "components/features/TwoColSingleFeatureWithStats2";
 import ThreeColSlider from "components/cards/ThreeColSlider";
 import TwoColWithSteps from "components/features/TwoColWithSteps";
@@ -28,6 +28,8 @@ import ProfileThreeColGrid from "components/cards/ProfileThreeColGrid";
 import Menufinal from "components/hero/Menufinal";
 import Rout from "Rout";
 import Events from "components/events/Events";
+import TwoColWithButtonver2 from "components/features/TwoColWithButtonver2";
+import { TabViewDemo } from "components/features/Tabs";
 function BodyRoutes() {
   return (
     <div>
@@ -35,7 +37,7 @@ function BodyRoutes() {
 
       <TwoColSingleFeatureWithStats2 />
       <ThreeColWithSideImage />
-      <TwoColWithButton />
+      <TwoColWithButton/>
       <Awards />
       <Events />
       <TwoColumnWithImageAndRating />
