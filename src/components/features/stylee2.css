@@ -269,30 +269,6 @@
     font-weight: 400;
 }
 .igg1{
-    background-image: url("../features/gridimages/PiyushKumarSahoo_SSR.jpg");
-    background-size: cover;
-    width: 80px;
-    height: 80px;
-    margin: 10px;
-    border-radius: 80px;
-}
-.igg2{
-    background-image: url("../features/gridimages2/Tanisha\ Dhawan.JPG");
-    background-size: cover;
-    width: 80px;
-    height: 80px;
-    margin: 10px;
-    border-radius: 80px;
-}
-.igg3{
-    background-image: url("../features/gridimages2/ANSHUL\ YADAV.jpg");
-    background-size: cover;
-    width: 80px;
-    height: 80px;
-    margin: 10px;
-    border-radius: 80px;
-}
-.igg4{
     background-image: url("../features/gridimages2/Kailash\ Maurya\ -\ Kailash\ Maurya.png");
     background-size: cover;
     width: 80px;
@@ -300,7 +276,7 @@
     margin: 10px;
     border-radius: 80px;
 }
-.igg5{
+.igg2{
     background-image: url("../features/gridimages2/ANSHUL\ YADAV.jpg");
     background-size: cover;
     width: 80px;
@@ -308,6 +284,23 @@
     margin: 10px;
     border-radius: 80px;
 }
+.igg3{
+    background-image: url("../features/gridimages2/IMG-20230325-WA0147\ -\ Ashmit\ Sharma.jpg");
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 80px;
+}
+.igg4{
+    background-image: url("../features/gridimages2/IMG20230711211336\ -\ PRERNA\ YADAV.jpg");
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 80px;
+}
+
 .igg6{
     background-image: url("../features/gridimages/Rashmi\ Agarwal.jpeg");
     background-size: cover;
@@ -349,7 +342,7 @@
     border-radius: 80px;
 }
 .igg11{
-    background-image: url("../features/gridimages2/Nandini.png");
+    background-image: url("../features/gridimages2/IMG_7999\ -\ Dipesh\ Ranjan.JPG");
     background-size: cover;
     width: 80px;
     height: 80px;
@@ -373,7 +366,7 @@
     border-radius: 80px;
 }
 .igg14{
-    background-image: url("../features/gridimages2/dheeraj\ Jain.jpg");
+    background-image: url("../features/gridimages2/WhatsApp\ Image\ 2023-06-14\ at\ 23.13.37\ -\ Aashi\ Sharma.jpeg");
     background-size: cover;
     width: 80px;
     height: 80px;
@@ -381,7 +374,7 @@
     border-radius: 80px;
 }
 .igg15{
-    background-image: url("../features/gridimages2/Mayank\ Jaiswal.jpg");
+    background-image: url("../features/gridimages2/IMG_20230509_220149_761\ -\ Prabhjot\ Singh.jpg");
     background-size: cover;
     width: 80px;
     height: 80px;
@@ -389,7 +382,7 @@
     border-radius: 80px;
 }
 .igg16{
-    background-image: url("../features/gridimages2/SHRUTI\ KUHAR.jpeg");
+    background-image: url("../features/gridimages2/20230424_121247\ -\ Husain\ Saifee.jpg");
     background-size: cover;
     width: 80px;
     height: 80px;
@@ -397,7 +390,7 @@
     border-radius: 80px;
 }
 .igg17{
-    background-image: url("../features/gridimages2/Rishi\ Raj\ Thakur.jpg");
+    background-image: url("../features/gridimages2/IMG_20230915_133930\ -\ Sarli\ Sengar.png");
     background-size: cover;
     width: 80px;
     height: 80px;
@@ -405,7 +398,7 @@
     border-radius: 80px;
 }
 .igg18{
-    background-image: url("../features/gridimages2/Amrit\ Kaul.jpeg");
+    background-image: url("../features/gridimages2/IMG-20230904-WA0029\ -\ Sahib\ Preet\ Singh.jpg");
     background-size: cover;
     width: 80px;
     height: 80px;
@@ -413,7 +406,7 @@
     border-radius: 80px;
 }
 .igg19{
-    background-image: url("../features/gridimages2/srishti\ singh.jpeg");
+    background-image: url("../features/gridimages2/WhatsApp\ Image\ 2023-09-05\ at\ 20.59.39\ -\ ANSHITA\ GARG\ 2K21_CO_75.jpeg");
     background-size: cover;
     width: 80px;
     height: 80px;
@@ -421,7 +414,7 @@
     border-radius: 80px;
 }
 .igg20{
-    background-image: url("../features/gridimages2/My\ Photo\ -\ Vikramaditya\ Hiran.jpeg");
+    background-image: url("../features/gridimages2/20230606_173456\ -\ Ayush\ Rajpurohit.jpg");
     background-size: cover;
     width: 80px;
     height: 80px;
@@ -429,7 +422,7 @@
     border-radius: 80px;
 }
 .igg21{
-    background-image: url("../features/gridimages2/Shobhna\ Sharma.jpg");
+    background-image: url("../features/gridimages2/ayush\ -\ AYUSH\ KUMAR.jpg");
     background-size: cover;
     width: 80px;
     height: 80px;
@@ -437,7 +430,7 @@
     border-radius: 80px;
 }
 .igg22{
-    background-image: url("../features/gridimages2/Mohsina\ Bilal.jpeg");
+    background-image: url("../features/gridimages2/C0DF52DB-7A4C-49D4-BE5D-83786B251D3E\ -\ Sakshi\ Singh.jpeg");
     background-size: cover;
     width: 80px;
     height: 80px;
@@ -452,7 +445,7 @@
     color:rgb(110, 1, 213);
 }
 .igg23{
-    background-image: url("../features/gridimages2/Roshni\ Sahoo.jpeg");
+    background-image: url("../features/gridimages2/IMG_20230414_213548\ -\ SNEHA\ SONIWAL.jpg");
     background-size: cover;
     width: 80px;
     height: 80px;
@@ -461,7 +454,7 @@
 }
 
 .igg25{
-    background-image: url("../features/gridimages/Pranav_Chauhan.webp");
+    background-image: url("../features/gridimages2/IMG_6925\ -\ Agastya\ J.jpg");
     background-size: cover;
     width: 80px;
     height: 80px;
@@ -469,7 +462,7 @@
     border-radius: 80px;
 }
 .igg26{
-    background-image: url("../features/gridimages2/Sanjana\ K.jpg");
+    background-image: url("../features/gridimages2/RIu\ -\ Riya\ Singh.jpg");
     background-size: cover;
     width: 80px;
     height: 80px;
@@ -485,7 +478,7 @@
     border-radius: 80px;
 }
 .igg28{
-    background-image: url("../features/gridimages2/\ Kshitij\ Singh.JPG");
+    background-image: url("../features/gridimages2/8998363E-138B-43F8-8FDC-8988F55F0835\ -\ Yashika\ Jain.JPG");
     background-size: cover;
     width: 80px;
     height: 80px;
@@ -493,7 +486,7 @@
     border-radius: 80px;
 }
 .igg29{
-    background-image: url("../features/gridimages2/Vaidehi\ Purohit\ -\ Vaidehi\ Purohit.jpeg");
+    background-image: url("../features/gridimages2/IMG-20230507-WA0052\(3\)\ -\ RIYA\ CHOUDHARY.jpg");
     background-size: cover;
     width: 80px;
     height: 80px;
@@ -501,7 +494,7 @@
     border-radius: 80px;
 }
 .igg30{
-    background-image: url("../features/gridimages2/divyansh-bansal\ -\ Divyansh\ Bansal.jpeg");
+    background-image: url("../features/gridimages2/+91\ 74897\ 41966\ 20230904_222040\ -\ Utkarsh\ Luthra.jpg");
     background-size: cover;
     width: 80px;
     height: 80px;
@@ -509,7 +502,7 @@
     border-radius: 80px;
 }
 .igg32{
-    background-image: url("../features/gridimages2/Simar\ Jyot\ Singh\ Narang.jpeg");
+    background-image: url("../features/gridimages2/IMG_20230628_145140\ -\ Arushi\ Gupta.png");
     background-size: cover;
     width: 80px;
     height: 80px;
@@ -517,7 +510,7 @@
     border-radius: 80px;
 }
 .igg33{
-    background-image: url("../features/gridimages2/Rohan\ Singh.png");
+    background-image: url("../features/gridimages2/IMG-20230813-WA0290\ -\ Ishita\ Choudhary.jpg");
     background-size: cover;
     width: 80px;
     height: 80px;
@@ -525,7 +518,7 @@
     border-radius: 80px;
 }
 .igg34{
-    background-image: url("../features/gridimages2/ISHAN\ SHARMA.jpg");
+    background-image: url("../features/gridimages2/IMG_2859\ -\ ANSH\ ARORA.JPG");
     background-size: cover;
     width: 80px;
     height: 80px;
@@ -557,7 +550,7 @@
     border-radius: 80px;
 }
 .igg38{
-    background-image: url("../features/gridimages2/TARUN\ KUMAR\ SHARMA.jpg");
+    background-image: url("../features/gridimages2/WhatsApp\ Image\ 2023-09-15\ at\ 1.55.43\ PM\ -\ Kunal\ Kumar\ Sharma.jpeg");
     background-size: cover;
     width: 80px;
     height: 80px;

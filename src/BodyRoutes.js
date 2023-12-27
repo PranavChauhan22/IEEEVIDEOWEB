@@ -30,12 +30,14 @@ import Rout from "Rout";
 import Events from "components/events/Events";
 import TwoColWithButtonver2 from "components/features/TwoColWithButtonver2";
 import { TabViewDemo } from "components/features/Tabs";
+import Videoac from "components/features/Videoac";
 function BodyRoutes() {
   return (
     <div>
       <FullWidthWithImage />
 
       <TwoColSingleFeatureWithStats2 />
+      <Videoac/>
       <ThreeColWithSideImage />
       <TwoColWithButton/>
       <Awards />

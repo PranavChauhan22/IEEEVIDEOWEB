@@ -102,11 +102,16 @@
     }
 }
 
-
+.sac_comm{
+    margin: 10px;
+}
 
 .card_sac_ssn{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+.slide-card{
+    margin: 30px;
 }

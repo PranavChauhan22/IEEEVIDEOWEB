@@ -18,6 +18,7 @@
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^13.1.5",
     "feather-icons": "^4.28.0",
+    "firebase": "^9.19.1",
     "framer-motion": "^4.1.5",
     "mobiscroll": "^3.0.0-beta6",
     "primeicons": "^4.1.0",
@@ -32,6 +33,7 @@
     "react-github-btn": "^1.2.0",
     "react-icons": "^4.3.1",
     "react-modal": "^3.13.1",
+    "react-player": "^2.12.0",
     "react-reveal": "^1.2.2",
     "react-rnd": "^10.2.4",
     "react-router-dom": "^5.3.0",
@@ -47,8 +49,8 @@
     "twin.macro": "^2.3.3"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",

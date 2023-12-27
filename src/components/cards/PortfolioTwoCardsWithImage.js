@@ -106,7 +106,7 @@ export default ({
           <div style={{ margin: "auto" }}>
             <iframe
               className="iframedi"
-              src="https://www.yumpu.com/en/embed/view/XbUn9dujCqyo3SIc"
+              src="https://www.yumpu.com/xx/embed/view/UqnaOB1NwtWQAKzf"
               frameborder="0"
               allowfullscreen="true"
               allowtransparency="true"

@@ -29,10 +29,10 @@ function Menufinal() {
         
         <Menu menuButton={<MenuButton style={{fontWeight:"600"}}>IEEE SSN</MenuButton>} >
           <MenuItem>
-            <a href="#IEEEDELHISSN_TEAM" className="a_team">SSN 2021-2022</a>
+            <a href="#IEEEDELHISSN_TEAM" className="a_team">SSN 2022-2023</a>
           </MenuItem>
           <MenuItem>
-            <a href="#IEEEDELHISSN_TEAM2" className="a_team">SSN 2022-2023</a>
+            <a href="#IEEEDELHISSN_TEAM2" className="a_team">SSN 2023-2024</a>
           </MenuItem>
         </Menu>
         </div>

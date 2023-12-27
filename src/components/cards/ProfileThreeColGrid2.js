@@ -9,34 +9,34 @@ import { ReactComponent as TwitterIcon} from "images/twitter-icon.svg";
 import { ReactComponent as LinkedinIcon} from "images/linkedin-icon.svg";
 import "../features/stylee.css"
 import { ReactComponent as GithubIcon } from "images/github-icon.svg";
-import img1 from "../features/gridimages2/Tanisha Dhawan.JPG"
-import img2 from "../features/gridimages2/Piyush - Piyush Kumar Sahoo.jpg"
-import img3 from "../features/gridimages2/Kailash Maurya - Kailash Maurya.png"
-import img4 from "../features/gridimages2/ANSHUL YADAV.jpg"
-import img5 from "../features/gridimages2/divyansh-bansal - Divyansh Bansal.jpeg"
-import img6 from "../features/gridimages2/Vaidehi Purohit - Vaidehi Purohit.jpeg"
-import img7 from "../features/gridimages2/Roshni Sahoo.jpeg"
-import img8 from "../features/gridimages2/Simar Jyot Singh Narang.jpeg"
-import img9 from "../features/gridimages2/srishti singh.jpeg"
-import img10 from "../features/gridimages2/Sanjana K.jpg"
-import img11 from "../features/gridimages2/Mohsina Bilal.jpeg"
-import img12 from "../features/gridimages2/SHRUTI KUHAR.jpeg"
-import img13 from "../features/gridimages2/dheeraj Jain.jpg"
-import img14 from "../features/gridimages2/Rishi Raj Thakur.jpg"
+import img1 from "../features/gridimages2/Kailash\ Maurya\ -\ Kailash\ Maurya.png"
+import img2 from "../features/gridimages2/ANSHUL\ YADAV.jpg"
+import img3 from "../features/gridimages2/IMG-20230325-WA0147\ -\ Ashmit\ Sharma.jpg"
+import img4 from "../features/gridimages2/IMG20230711211336\ -\ PRERNA\ YADAV.jpg"
+import img5 from "../features/gridimages2//+91\ 74897\ 41966\ 20230904_222040\ -\ Utkarsh\ Luthra.jpg"
+import img6 from "../features/gridimages2/IMG-20230507-WA0052\(3\)\ -\ RIYA\ CHOUDHARY.jpg"
+import img7 from "../features/gridimages2/IMG_20230414_213548\ -\ SNEHA\ SONIWAL.jpg"
+import img8 from "../features/gridimages2/IMG_20230628_145140\ -\ Arushi\ Gupta.png"
+import img9 from "../features/gridimages2/RIu\ -\ Riya\ Singh.jpg"
+import img10 from "../features/gridimages2/WhatsApp\ Image\ 2023-09-05\ at\ 20.59.39\ -\ ANSHITA\ GARG\ 2K21_CO_75.jpeg"
+import img11 from "../features/gridimages2/C0DF52DB-7A4C-49D4-BE5D-83786B251D3E\ -\ Sakshi\ Singh.jpeg"
+import img12 from "../features/gridimages2/20230424_121247\ -\ Husain\ Saifee.jpg"
+import img13 from "../features/gridimages2/WhatsApp\ Image\ 2023-06-14\ at\ 23.13.37\ -\ Aashi\ Sharma.jpeg"
+import img14 from "../features/gridimages2/IMG_20230915_133930\ -\ Sarli\ Sengar.png"
 import img15 from "../features/gridimages2/shubh sharma.jpeg"
 import img16 from "../features/gridimages/Charu-Networking\ and\ Social\ Media\ Coordinator\ -\ 26_Charu\ Kaushik.jpeg"
-import img17 from "../features/gridimages2/My Photo - Vikramaditya Hiran.jpeg"
-import img18 from "../features/gridimages2/Mayank Jaiswal.jpg"
+import img17 from "../features/gridimages2/20230606_173456\ -\ Ayush\ Rajpurohit.jpg"
+import img18 from "../features/gridimages2/IMG_20230509_220149_761\ -\ Prabhjot\ Singh.jpg"
 import img19 from "../features/gridimages2/LAKSHAY CHAWLA.jpg"
 import img20 from "../features/gridimages2/Shashi Kushwaha.jpg"
-import img21 from "../features/gridimages2/ISHAN SHARMA.jpg"
-import img22 from "../features/gridimages2/Shobhna Sharma.jpg"
-import img23 from "../features/gridimages2/ Kshitij Singh.JPG"
-import img24 from "../features/gridimages2/TARUN KUMAR SHARMA.jpg"
-import img25 from "../features/gridimages2/Rohan Singh.png"
-import img26 from "../features/gridimages2/Nandini.png"
-import img27 from "../features/gridimages2/Pranav Chauhan.jpg"
-import img28 from "../features/gridimages2/Amrit Kaul.jpeg"
+import img21 from "../features/gridimages2/IMG_2859\ -\ ANSH\ ARORA.JPG"
+import img22 from "../features/gridimages2/ayush\ -\ AYUSH\ KUMAR.jpg"
+import img23 from "../features/gridimages2/8998363E-138B-43F8-8FDC-8988F55F0835\ -\ Yashika\ Jain.JPG"
+import img24 from "../features/gridimages2/WhatsApp\ Image\ 2023-09-15\ at\ 1.55.43\ PM\ -\ Kunal\ Kumar\ Sharma.jpeg"
+import img25 from "../features/gridimages2/IMG-20230813-WA0290\ -\ Ishita\ Choudhary.jpg"
+import img26 from "../features/gridimages2/IMG_7999\ -\ Dipesh\ Ranjan.JPG"
+import img27 from "../features/gridimages2/IMG_6925\ -\ Agastya\ J.jpg";
+import img28 from "../features/gridimages2/IMG-20230904-WA0029\ -\ Sahib\ Preet\ Singh.jpg"
 import img29 from "../features/gridimages2/Saumya Taneja.jpeg"
 import img30 from "../features/gridimages2/vandana chauhan.jpg"
 import img31 from "../features/gridimages2/Vishal Kumar Singh.jpg"
@@ -82,7 +82,7 @@ export default ({
     {
       imageSrc:img1,
       position: "Mentor",
-      name: "Tanisha Dhawan",
+      name: "Kailash Maurya",
       name1: "",
       links: [
         {
@@ -102,7 +102,7 @@ export default ({
     {
       imageSrc:img2,
       position: "Mentor",
-      name: "Piyush Kumar Sahoo",
+      name: "Anshul Yadav",
       name1: "",
       links: [
         {
@@ -123,7 +123,7 @@ export default ({
     {
       imageSrc:img3,
       position: "Section Student Representative",
-      name: "Kailash Maurya",
+      name: "Ashmit Sharma",
       name1: "",
       links: [
         {
@@ -143,7 +143,7 @@ export default ({
     {
       imageSrc:img4,
       position: "Section Student Representative",
-      name: "Anshul Yadav",
+      name: "Prerna Yadav",
       name1: "",
       links: [
         {
@@ -164,7 +164,7 @@ export default ({
     {
       imageSrc:img5,
       position: "Subsection Student Representative",
-      name: "Divyansh Bansal",
+      name: "Utkarsh Luthra",
       name1: "Chandigarh",
       links: [
         {
@@ -184,7 +184,7 @@ export default ({
     {
       imageSrc:img6,
       position: "Subsection Student Representative",
-      name: "Vaidehi Purohit",
+      name: "Riya Choudhary",
       name1: "Rajasthan",
       links: [
         {
@@ -205,7 +205,7 @@ export default ({
     {
       imageSrc:img11,
       position: "Networking And Social Media",
-      name: "Mohsina Bilal",
+      name: "Sakshi Singh",
       name1: "Lead",
       links: [
         {
@@ -225,7 +225,7 @@ export default ({
     {
       imageSrc:img12,
       position: "Networking And Social Media",
-      name: "Shruti Kuhar",
+      name: "Husain Saifee",
       name1: "",
       links: [
         {
@@ -245,7 +245,7 @@ export default ({
     {
       imageSrc:img13,
       position: "Networking And Social Media",
-      name: "Dheeraj Jain",
+      name: "Aashi Sharma",
       name1: "",
       links: [
         {
@@ -265,7 +265,7 @@ export default ({
     {
       imageSrc:img14,
       position: "Networking And Social Media",
-      name: "Rishi Raj Thakur",
+      name: "Sarli Sengar",
       name1: "",
       links: [
         {
@@ -282,31 +282,12 @@ export default ({
         },
       ],
     },
-    {
-      imageSrc:img15,
-      position: "Networking And Social Media",
-      name: "Shubh Sharma",
-      name1: "",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://www.linkedin.com/in/shubh-sharma-shu19510/",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
+
     
     {
       imageSrc:img27,
       position: "Webmaster",
-      name: "Pranav Chauhan",
+      name: "Agastya Jhingan",
       name1: "Lead",
       links: [
         {
@@ -326,7 +307,7 @@ export default ({
     {
       imageSrc:img24,
       position: "Videography",
-      name: "Tarun Kumar Sharma",
+      name: "Kunal Kumar Sharma",
       name1: "Lead",
       links: [
         {
@@ -346,7 +327,7 @@ export default ({
     {
       imageSrc:img25,
       position: "Editorial",
-      name: "Rohan Kumar Singh",
+      name: "Ishita Choudhary",
       name1: "",
       links: [
         {
@@ -366,7 +347,7 @@ export default ({
     {
       imageSrc:img26,
       position: "Editorial",
-      name: "Nandini Pachauri",
+      name: "Dipesh Ranjan",
       name1: "",
       links: [
         {
@@ -386,7 +367,7 @@ export default ({
     {
       imageSrc:img28,
       position: "Editorial",
-      name: "Amrit Kaul",
+      name: "Sahib Preet Singh",
       name1: "",
       links: [
         {
@@ -406,7 +387,7 @@ export default ({
     {
       imageSrc:img7,
       position: "Women In Engineering",
-      name: "Roshni Sahoo",
+      name: "Sneha Soniwal",
       name1: "Lead",
       links: [
         {
@@ -427,7 +408,7 @@ export default ({
     {
       imageSrc:img8,
       position: "Women In Engineering",
-      name: "Simar Jyot",
+      name: "Arushi Gupta",
       name1: "",
       links: [
         {
@@ -448,7 +429,7 @@ export default ({
     {
       imageSrc:img9,
       position: "Women In Engineering",
-      name: "Srishti Singh",
+      name: "Riya Singh",
       name1: "",
       links: [
         {
@@ -469,7 +450,7 @@ export default ({
     {
       imageSrc:img10,
       position: "Women In Engineering",
-      name: "Sanjana K",
+      name: "Anshita Garg",
       name1: "",
       links: [
         {
@@ -486,50 +467,12 @@ export default ({
         },
       ],
     },
-    {
-      imageSrc:img29,
-      position: "Women In Engineering",
-      name: "Saumya Taneja",
-      name1: "",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://www.linkedin.com/in/saumya-taneja-867625144",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
-      imageSrc:img30,
-      position: "Women In Engineering",
-      name: "Vandana Chauhan",
-      name1: "",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://www.linkedin.com/in/chvandana",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
+    
+    
     {
       imageSrc:img17,
       position: "Technical Activities",
-      name: "Vikramaditya Hiran",
+      name: "Ayush Rajpurohit",
       name1: "Lead",
       links: [
         {
@@ -549,7 +492,7 @@ export default ({
     {
       imageSrc:img18,
       position: "Technical Activities",
-      name: "Mayank Jaiswal",
+      name: "Prabhjot Singh",
       name1: "",
       links: [
         {
@@ -566,50 +509,11 @@ export default ({
         },
       ],
     },
-    {
-      imageSrc:img19,
-      position: "Technical Activities",
-      name: "Lakshay Chawla",
-      name1: "",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://www.linkedin.com/in/lakshaychawla",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
-      imageSrc:img20,
-      position: "Technical Activities",
-      name: "Shashi Kushwaha",
-      name1: "",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://www.linkedin.com/in/shashi-kushwaha-339aa4221",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
+
     {
       imageSrc:img21,
       position: "Graphic Designing",
-      name: "Ishan Sharma",
+      name: "Ansh Arora",
       name1: "Lead",
       links: [
         {
@@ -629,7 +533,7 @@ export default ({
     {
       imageSrc:img22,
       position: "Graphic Designing",
-      name: "Shobhna Sharma",
+      name: "Ayush Kumar",
       name1: "",
       links: [
         {
@@ -649,7 +553,7 @@ export default ({
     {
       imageSrc:img23,
       position: "Graphic Designing",
-      name: "Kshitij Singh",
+      name: "Yashika Jain",
       name1: "",
       links: [
         {
@@ -666,26 +570,7 @@ export default ({
         },
       ],
     },
-    {
-      imageSrc:img31,
-      position: "Graphic Designing",
-      name: "Vishal Kumar Singh",
-      name1: "",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://www.linkedin.com/in/vishal-kumar-singh-028121201",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
+    
    
   
     
@@ -711,11 +596,11 @@ export default ({
                 <span className="name">{card.name}</span>
                 <span className="name1">{card.name1}</span>
                 <CardLinks>
-                  {card.links.map((link, linkIndex) => (
+                  {/* {card.links.map((link, linkIndex) => (
                     (link.icon==LinkedinIcon&&<a key={linkIndex} className="link" href={link.url}>
                       <link.icon className="icon" />
                     </a>)
-                  ))}
+                  ))} */}
                 </CardLinks>
               </CardContent>
             </Card>

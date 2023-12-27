@@ -9,33 +9,37 @@ import { ReactComponent as TwitterIcon} from "images/twitter-icon.svg";
 import { ReactComponent as LinkedinIcon} from "images/linkedin-icon.svg";
 import "../features/stylee.css"
 import { ReactComponent as GithubIcon } from "images/github-icon.svg";
-import img1 from "../features/gridimages/Garima\ Patel.jpeg"
-import img2 from "../features/gridimages/J\ Ashwin\ Nair.jpeg"
-import img3 from "../components_images/Piyush.jpg"
-import img4 from "../features/gridimages/GaganSingh_SSR\ -\ IEEE\ Delhi\ SAC.jpg"
-import img5 from "../features/gridimages/sharone_latest.jpeg"
-import img6 from "../features/gridimages/Shambhavi_SSR\ -\ shambhavi\ khanna.JPG"
-import img7 from "../features/gridimages/Pallavi\ -\ Pallavi\ Singh.jpg"
-import img8 from "../features/gridimages/Shubham\ singla_wiecoordinator\ -\ shubham\ purshottam\ singla.jpeg"
-import img9 from "../features/gridimages/khushikathuria_wiecoordinator\ -\ Khushi\ Kathuria.jpeg"
-import img10 from "../components_images/priti.jpeg"
-import img11 from "../features/gridimages/Monalika_Networking_SocialMediaLead\ -\ Monalika.jpg"
-import img12 from "../features/gridimages/Hemang\ Sinha\ -\ Photograph\ -\ Hemang\ Sinha.JPG"
-import img13 from "../features/gridimages/Divita\ Gulati_NetworkingAndSocialMediaCoordinator\ -\ Divita\ Gulati.jpg"
-import img14 from "../features/gridimages/IMG_20210401_075648_410\ -\ Disha\ Vagrecha.jpg"
-import img15 from "../features/gridimages/Ansh\ Dudeja\ _Networking\ and\ Social\ media\ lead\ -\ Ansh\ Dudeja.jpeg"
+import img1 from "../features/gridimages2/Tanisha Dhawan.JPG"
+import img2 from "../features/gridimages2/Piyush - Piyush Kumar Sahoo.jpg"
+import img3 from "../features/gridimages2/Kailash Maurya - Kailash Maurya.png"
+import img4 from "../features/gridimages2/ANSHUL YADAV.jpg"
+import img5 from "../features/gridimages2/divyansh-bansal - Divyansh Bansal.jpeg"
+import img6 from "../features/gridimages2/Vaidehi Purohit - Vaidehi Purohit.jpeg"
+import img7 from "../features/gridimages2/Roshni Sahoo.jpeg"
+import img8 from "../features/gridimages2/Simar Jyot Singh Narang.jpeg"
+import img9 from "../features/gridimages2/srishti singh.jpeg"
+import img10 from "../features/gridimages2/Sanjana K.jpg"
+import img11 from "../features/gridimages2/Mohsina Bilal.jpeg"
+import img12 from "../features/gridimages2/SHRUTI KUHAR.jpeg"
+import img13 from "../features/gridimages2/dheeraj Jain.jpg"
+import img14 from "../features/gridimages2/Rishi Raj Thakur.jpg"
+import img15 from "../features/gridimages2/shubh sharma.jpeg"
 import img16 from "../features/gridimages/Charu-Networking\ and\ Social\ Media\ Coordinator\ -\ 26_Charu\ Kaushik.jpeg"
-import img17 from "../components_images/priyansh.jpeg"
-import img18 from "../features/gridimages/HarshitSingh_TechnicalActivitiesCoord\ -\ Harshit\ Singh.png"
-import img19 from "../features/gridimages/Aditi_Technical-Activity-Coordinator\ -\ Aditi\ tripathi.jpg"
-import img20 from "../features/gridimages/Screenshot_20210628-142429\ -\ shaleen\ poddar.jpg"
-import img21 from "../components_images/vaibhav.jpg"
-import img22 from "../features/gridimages/Manas\ Das_Graphic\ Design\ Coordinator\ -\ Manas\ Das.jpg"
-import img23 from "../features/gridimages/Shalini\ Agrawal_\ Graphic\ Designing\ Coordinator\ -\ Shalini\ Agrawal.jpg"
-import img24 from "../features/gridimages/Tanisha_Editorial\ Lead\ -\ Tanisha\ Dhawan.JPG"
-import img25 from "../features/gridimages/AishwaryaChand_Editorial-Coordinator\ -\ Aishwarya\ Chand.jpeg"
-import img26 from "../features/gridimages/KashishGarg_EditorialCoordinator\ -\ Kashish\ Garg.jpeg"
-import img27 from "../components_images/pranav_final.webp"
+import img17 from "../features/gridimages2/My Photo - Vikramaditya Hiran.jpeg"
+import img18 from "../features/gridimages2/Mayank Jaiswal.jpg"
+import img19 from "../features/gridimages2/LAKSHAY CHAWLA.jpg"
+import img20 from "../features/gridimages2/Shashi Kushwaha.jpg"
+import img21 from "../features/gridimages2/ISHAN SHARMA.jpg"
+import img22 from "../features/gridimages2/Shobhna Sharma.jpg"
+import img23 from "../features/gridimages2/ Kshitij Singh.JPG"
+import img24 from "../features/gridimages2/TARUN KUMAR SHARMA.jpg"
+import img25 from "../features/gridimages2/Rohan Singh.png"
+import img26 from "../features/gridimages2/Nandini.png"
+import img27 from "../features/gridimages2/Pranav Chauhan.jpg"
+import img28 from "../features/gridimages2/Amrit Kaul.jpeg"
+import img29 from "../features/gridimages2/Saumya Taneja.jpeg"
+import img30 from "../features/gridimages2/vandana chauhan.jpg"
+import img31 from "../features/gridimages2/Vishal Kumar Singh.jpg"
 
 const HeadingContainer = tw.div``
 const Heading = tw(SectionHeading)``
@@ -78,7 +82,7 @@ export default ({
     {
       imageSrc:img1,
       position: "Mentor",
-      name: "Garima Patel",
+      name: "Tanisha Dhawan",
       name1: "",
       links: [
         {
@@ -86,7 +90,7 @@ export default ({
           icon: TwitterIcon,
         },
         {
-          url: "https://www.linkedin.com/in/garima-patel",
+          url: "https://www.linkedin.com/in/tanisha-dhawan-9b1b331ab",
           icon: LinkedinIcon,
         },
         {
@@ -98,27 +102,6 @@ export default ({
     {
       imageSrc:img2,
       position: "Mentor",
-      name: "J Ashwin Nair",
-      name1: "",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://www.linkedin.com/in/jashwinnair",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
-   
-    {
-      imageSrc:img3,
-      position: "Section Student Representative",
       name: "Piyush Kumar Sahoo",
       name1: "",
       links: [
@@ -136,10 +119,11 @@ export default ({
         },
       ],
     },
+   
     {
-      imageSrc:img4,
+      imageSrc:img3,
       position: "Section Student Representative",
-      name: "Gagan Singh",
+      name: "Kailash Maurya",
       name1: "",
       links: [
         {
@@ -147,7 +131,27 @@ export default ({
           icon: TwitterIcon,
         },
         {
-          url: "https://www.linkedin.com/in/gagansingh35",
+          url: "https://www.linkedin.com/in/kailash-maurya-032898208/",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc:img4,
+      position: "Section Student Representative",
+      name: "Anshul Yadav",
+      name1: "",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://www.linkedin.com/in/anshul-yadav-784602208",
           icon: LinkedinIcon,
         },
         {
@@ -160,7 +164,7 @@ export default ({
     {
       imageSrc:img5,
       position: "Subsection Student Representative",
-      name: "Sharone Verma",
+      name: "Divyansh Bansal",
       name1: "Chandigarh",
       links: [
         {
@@ -168,7 +172,7 @@ export default ({
           icon: TwitterIcon,
         },
         {
-          url: "https://www.linkedin.com/in/sharone-verma-536072175",
+          url: "https://www.linkedin.com/in/idivyanshbansal",
           icon: LinkedinIcon,
         },
         {
@@ -180,7 +184,7 @@ export default ({
     {
       imageSrc:img6,
       position: "Subsection Student Representative",
-      name: "Shambhavi Khanna",
+      name: "Vaidehi Purohit",
       name1: "Rajasthan",
       links: [
         {
@@ -188,7 +192,7 @@ export default ({
           icon: TwitterIcon,
         },
         {
-          url: "http://linkedin.com/in/shambhavi-khanna-5098a7199",
+          url: "https://www.linkedin.com/in/vaidehipurohit01",
           icon: LinkedinIcon,
         },
         {
@@ -201,7 +205,7 @@ export default ({
     {
       imageSrc:img11,
       position: "Networking And Social Media",
-      name: "Monalika Kapoor",
+      name: "Mohsina Bilal",
       name1: "Lead",
       links: [
         {
@@ -209,7 +213,7 @@ export default ({
           icon: TwitterIcon,
         },
         {
-          url: "https://www.linkedin.com/in/monalika7",
+          url: "www.linkedin.com/in/mohsina-bilal-3ab454221",
           icon: LinkedinIcon,
         },
         {
@@ -221,7 +225,7 @@ export default ({
     {
       imageSrc:img12,
       position: "Networking And Social Media",
-      name: "Hemang Sinha",
+      name: "Shruti Kuhar",
       name1: "",
       links: [
         {
@@ -229,7 +233,7 @@ export default ({
           icon: TwitterIcon,
         },
         {
-          url: "https://www.linkedin.com/in/hemang-sinha-0485081a4",
+          url: "https://www.linkedin.com/in/shruti-kuhar-235884230/",
           icon: LinkedinIcon,
         },
         {
@@ -241,7 +245,7 @@ export default ({
     {
       imageSrc:img13,
       position: "Networking And Social Media",
-      name: "Divita Gulati",
+      name: "Dheeraj Jain",
       name1: "",
       links: [
         {
@@ -249,7 +253,7 @@ export default ({
           icon: TwitterIcon,
         },
         {
-          url: "https://www.linkedin.com/in/divita-gulati-58a1181a4",
+          url: "https://www.linkedin.com/in/dheeraj-jain-691011202",
           icon: LinkedinIcon,
         },
         {
@@ -261,7 +265,7 @@ export default ({
     {
       imageSrc:img14,
       position: "Networking And Social Media",
-      name: "Disha Vagrecha",
+      name: "Rishi Raj Thakur",
       name1: "",
       links: [
         {
@@ -269,7 +273,7 @@ export default ({
           icon: TwitterIcon,
         },
         {
-          url: "https://linkedin.com",
+          url: "https://www.linkedin.com/in/rishi-raj-thakur-24b3a0213",
           icon: LinkedinIcon,
         },
         {
@@ -281,7 +285,7 @@ export default ({
     {
       imageSrc:img15,
       position: "Networking And Social Media",
-      name: "Ansh Dudeja",
+      name: "Shubh Sharma",
       name1: "",
       links: [
         {
@@ -289,7 +293,7 @@ export default ({
           icon: TwitterIcon,
         },
         {
-          url: "https://www.linkedin.com/in/ansh-dudeja-60a956178",
+          url: "https://www.linkedin.com/in/shubh-sharma-shu19510/",
           icon: LinkedinIcon,
         },
         {
@@ -298,26 +302,7 @@ export default ({
         },
       ],
     },
-    {
-      imageSrc:img16,
-      position: "Networking And Social Media",
-      name: "Charu Kaushik",
-      name1: "",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    },
+    
     {
       imageSrc:img27,
       position: "Webmaster",
@@ -329,7 +314,7 @@ export default ({
           icon: TwitterIcon,
         },
         {
-          url: "https://www.linkedin.com/in/pranav-chauhan-217bb11b9/",
+          url: "https://www.linkedin.com/in/pranav-chauhan-217bb11b9",
           icon: LinkedinIcon,
         },
         {
@@ -340,8 +325,8 @@ export default ({
     },
     {
       imageSrc:img24,
-      position: "Editorial",
-      name: "Tanisha Dhawan",
+      position: "Videography",
+      name: "Tarun Kumar Sharma",
       name1: "Lead",
       links: [
         {
@@ -349,7 +334,7 @@ export default ({
           icon: TwitterIcon,
         },
         {
-          url: "https://www.linkedin.com/in/tanisha-dhawan-9b1b331ab",
+          url: "https://www.linkedin.com/in/tarun-kumar-sharma-7132a122b",
           icon: LinkedinIcon,
         },
         {
@@ -361,7 +346,7 @@ export default ({
     {
       imageSrc:img25,
       position: "Editorial",
-      name: "Aishwarya Chand",
+      name: "Rohan Kumar Singh",
       name1: "",
       links: [
         {
@@ -369,7 +354,7 @@ export default ({
           icon: TwitterIcon,
         },
         {
-          url: "https://www.linkedin.com/in/aishwarya-chand-2022/",
+          url: "https://www.linkedin.com/in/rohan-singh-gangster",
           icon: LinkedinIcon,
         },
         {
@@ -381,7 +366,7 @@ export default ({
     {
       imageSrc:img26,
       position: "Editorial",
-      name: "Kashish Garg",
+      name: "Nandini Pachauri",
       name1: "",
       links: [
         {
@@ -389,7 +374,27 @@ export default ({
           icon: TwitterIcon,
         },
         {
-          url: "https://www.linkedin.com/in/gargkashish",
+          url: "https://www.linkedin.com/in/nandini-pachauri/",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc:img28,
+      position: "Editorial",
+      name: "Amrit Kaul",
+      name1: "",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://www.linkedin.com/in/amrit-kaul-289499208",
           icon: LinkedinIcon,
         },
         {
@@ -401,7 +406,7 @@ export default ({
     {
       imageSrc:img7,
       position: "Women In Engineering",
-      name: "Pallavi Singh",
+      name: "Roshni Sahoo",
       name1: "Lead",
       links: [
         {
@@ -409,7 +414,7 @@ export default ({
           icon: TwitterIcon,
         },
         {
-          url: "https://www.linkedin.com/in/pallavi-singh-86b19519a-/",
+          url: "https://www.linkedin.com/in/roshni-sahoo-107513208/",
           icon: LinkedinIcon,
         },
         {
@@ -422,7 +427,7 @@ export default ({
     {
       imageSrc:img8,
       position: "Women In Engineering",
-      name: "Shubham Singla",
+      name: "Simar Jyot",
       name1: "",
       links: [
         {
@@ -430,7 +435,7 @@ export default ({
           icon: TwitterIcon,
         },
         {
-          url: "https://www.linkedin.com/in/shubham-purshottam-singla-6b8a91194",
+          url: "https://www.linkedin.com/in/sjsn2002",
           icon: LinkedinIcon,
         },
         {
@@ -443,7 +448,7 @@ export default ({
     {
       imageSrc:img9,
       position: "Women In Engineering",
-      name: "Khushi Kathuria",
+      name: "Srishti Singh",
       name1: "",
       links: [
         {
@@ -451,7 +456,7 @@ export default ({
           icon: TwitterIcon,
         },
         {
-          url: "https://www.linkedin.com/in/khushi-kathuria-858a111a6",
+          url: "https://www.linkedin.com/in/srishti-singh-819ba2202",
           icon: LinkedinIcon,
         },
         {
@@ -464,7 +469,7 @@ export default ({
     {
       imageSrc:img10,
       position: "Women In Engineering",
-      name: "Priti Gangwar",
+      name: "Sanjana K",
       name1: "",
       links: [
         {
@@ -472,7 +477,47 @@ export default ({
           icon: TwitterIcon,
         },
         {
-          url: "https://www.linkedin.com/in/priti-gangwar-937252196/",
+          url: "https://www.linkedin.com/in/sanjana-k-2793421b5",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc:img29,
+      position: "Women In Engineering",
+      name: "Saumya Taneja",
+      name1: "",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://www.linkedin.com/in/saumya-taneja-867625144",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc:img30,
+      position: "Women In Engineering",
+      name: "Vandana Chauhan",
+      name1: "",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://www.linkedin.com/in/chvandana",
           icon: LinkedinIcon,
         },
         {
@@ -484,7 +529,7 @@ export default ({
     {
       imageSrc:img17,
       position: "Technical Activities",
-      name: "Priyansh Tyagi",
+      name: "Vikramaditya Hiran",
       name1: "Lead",
       links: [
         {
@@ -492,7 +537,7 @@ export default ({
           icon: TwitterIcon,
         },
         {
-          url: "https://www.linkedin.com/in/priyanshtyagi",
+          url: "www.linkedin.com/in/vikramaditya-hiran-5502a3141/",
           icon: LinkedinIcon,
         },
         {
@@ -504,7 +549,7 @@ export default ({
     {
       imageSrc:img18,
       position: "Technical Activities",
-      name: "Harshit Singh",
+      name: "Mayank Jaiswal",
       name1: "",
       links: [
         {
@@ -512,7 +557,7 @@ export default ({
           icon: TwitterIcon,
         },
         {
-          url: "https://www.linkedin.com/in/harshit-singh-lko",
+          url: "https://www.linkedin.com/in/mayankjaiswal2002",
           icon: LinkedinIcon,
         },
         {
@@ -524,7 +569,7 @@ export default ({
     {
       imageSrc:img19,
       position: "Technical Activities",
-      name: "Aditi Tripathi",
+      name: "Lakshay Chawla",
       name1: "",
       links: [
         {
@@ -532,7 +577,7 @@ export default ({
           icon: TwitterIcon,
         },
         {
-          url: "https://linkedin.com",
+          url: "https://www.linkedin.com/in/lakshaychawla",
           icon: LinkedinIcon,
         },
         {
@@ -544,7 +589,7 @@ export default ({
     {
       imageSrc:img20,
       position: "Technical Activities",
-      name: "Shaleen Poddar",
+      name: "Shashi Kushwaha",
       name1: "",
       links: [
         {
@@ -552,7 +597,7 @@ export default ({
           icon: TwitterIcon,
         },
         {
-          url: "https://linkedin.com",
+          url: "https://www.linkedin.com/in/shashi-kushwaha-339aa4221",
           icon: LinkedinIcon,
         },
         {
@@ -564,7 +609,7 @@ export default ({
     {
       imageSrc:img21,
       position: "Graphic Designing",
-      name: "Vaibhav Srivastava",
+      name: "Ishan Sharma",
       name1: "Lead",
       links: [
         {
@@ -572,7 +617,7 @@ export default ({
           icon: TwitterIcon,
         },
         {
-          url: "https://www.linkedin.com/in/vaibhav-2107",
+          url: "https://bit.ly/ishan_linkedin",
           icon: LinkedinIcon,
         },
         {
@@ -584,7 +629,7 @@ export default ({
     {
       imageSrc:img22,
       position: "Graphic Designing",
-      name: "Manas Das",
+      name: "Shobhna Sharma",
       name1: "",
       links: [
         {
@@ -592,7 +637,7 @@ export default ({
           icon: TwitterIcon,
         },
         {
-          url: "https://www.linkedin.com/in/reach-manas-das/",
+          url: "https://www.linkedin.com/in/shobhna-sharma-6500ba1b9",
           icon: LinkedinIcon,
         },
         {
@@ -604,7 +649,7 @@ export default ({
     {
       imageSrc:img23,
       position: "Graphic Designing",
-      name: "Shalini Agarwal",
+      name: "Kshitij Singh",
       name1: "",
       links: [
         {
@@ -612,7 +657,7 @@ export default ({
           icon: TwitterIcon,
         },
         {
-          url: "https://www.linkedin.com/in/shalini-agrawal-a07852177",
+          url: "https://www.linkedin.com/in/kshitij-singh1118/",
           icon: LinkedinIcon,
         },
         {
@@ -621,6 +666,7 @@ export default ({
         },
       ],
     },
+    
    
   
     
@@ -661,3 +707,4 @@ export default ({
     </Container>
   );
 };
+

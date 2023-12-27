@@ -54,7 +54,7 @@ export default ({
   subheading = "Our Expertise",
   heading = (
     <>
-      IEEE DELHI SSN <span tw="text-blue-500">2022-2023.</span>
+      IEEE DELHI SSN <span tw="text-blue-500">2023-2024.</span>
     </>
   ),
   description = "Teamwork is the ability to work together toward a common vision. The ability to direct individual accomplishments toward organizational objectives. It is the fuel that allows common people to attain uncommon results.",
