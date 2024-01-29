@@ -25,16 +25,27 @@ function Menufinal() {
           About
         </Link>
         <div className="a_a_team">
-
-        
-        <Menu menuButton={<MenuButton style={{fontWeight:"600"}}>IEEE SSN</MenuButton>} >
-          <MenuItem>
-            <a href="#IEEEDELHISSN_TEAM" className="a_team">SSN 2022-2023</a>
-          </MenuItem>
-          <MenuItem>
-            <a href="#IEEEDELHISSN_TEAM2" className="a_team">SSN 2023-2024</a>
-          </MenuItem>
-        </Menu>
+          <Menu
+            menuButton={
+              <MenuButton style={{ fontWeight: "600" }}>IEEE SSN</MenuButton>
+            }
+          >
+            <MenuItem>
+              <a href="#IEEEDELHISSN_TEAM3" className="a_team">
+                SSN 2021-2022
+              </a>
+            </MenuItem>
+            <MenuItem>
+              <a href="#IEEEDELHISSN_TEAM" className="a_team">
+                SSN 2022-2023
+              </a>
+            </MenuItem>
+            <MenuItem>
+              <a href="#IEEEDELHISSN_TEAM2" className="a_team">
+                SSN 2023-2024
+              </a>
+            </MenuItem>
+          </Menu>
         </div>
         <Link
           activeClass="active"
@@ -81,7 +92,7 @@ function Menufinal() {
           Articles
         </a>
         <a href="https://www.dssywc.in/" className="headtext" target={"_blank"}>
-          DSSYWC 
+          DSSYWC
         </a>
       </div>
       <img src={logo2} className="Logo2" />
