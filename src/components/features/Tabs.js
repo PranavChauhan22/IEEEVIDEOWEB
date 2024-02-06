@@ -22,8 +22,7 @@ export const TabViewDemo = () => {
                     </TabPanel>
                     <TabPanel header="IEEE DELHI SSN 2022-2023">
                         <TwoColWithButton/>
-                    </TabPanel>
-                 
+                    </TabPanel>                 
                 </TabView>
             </div>
 

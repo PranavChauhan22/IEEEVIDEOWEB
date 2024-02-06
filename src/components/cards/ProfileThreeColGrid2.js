@@ -40,6 +40,8 @@ import img28 from "../features/gridimages2/IMG-20230904-WA0029\ -\ Sahib\ Preet\
 import img29 from "../features/gridimages2/Saumya Taneja.jpeg"
 import img30 from "../features/gridimages2/vandana chauhan.jpg"
 import img31 from "../features/gridimages2/Vishal Kumar Singh.jpg"
+import img32 from "../features/gridimages2/IMG-20230623-WA0001(1) - Shaurya Mehra.jpg"
+import img33 from "../features/gridimages2/IMG_20230915_112459 - Abhishek Jha.JPG"
 
 const HeadingContainer = tw.div``
 const Heading = tw(SectionHeading)``
@@ -254,6 +256,26 @@ export default ({
         },
         {
           url: "https://www.linkedin.com/in/dheeraj-jain-691011202",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc:img32,
+      position: "Networking And Social Media",
+      name: "Shaurya Mehra",
+      name1: "",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://www.linkedin.com/in/shruti-kuhar-235884230/",
           icon: LinkedinIcon,
         },
         {
@@ -534,6 +556,26 @@ export default ({
       imageSrc:img22,
       position: "Graphic Designing",
       name: "Ayush Kumar",
+      name1: "",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://www.linkedin.com/in/shobhna-sharma-6500ba1b9",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc:img33,
+      position: "Graphic Designing",
+      name: "Abhishek kumar Jha",
       name1: "",
       links: [
         {

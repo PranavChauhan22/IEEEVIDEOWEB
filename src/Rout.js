@@ -35,6 +35,7 @@ import ProfileThreeColGrid from "components/cards/ProfileThreeColGrid";
 import Menufinal from "components/hero/Menufinal";
 import BodyRoutes from "BodyRoutes";
 import ProfileThreeColGrid2 from "components/cards/ProfileThreeColGrid2";
+import ProfileThreeColGrid3 from "components/cards/ProfileThreeColGrid3";
 
 function Rout() {
     return (
@@ -55,6 +56,12 @@ function Rout() {
             exact
             path="/IEEEDELHISSN_TEAM2"
             component={ProfileThreeColGrid2}
+            />
+            
+            <Route
+            exact
+            path="/IEEEDELHISSN_TEAM3"
+            component={ProfileThreeColGrid3}
             />
 
           <Route exact path="/Editions"  component={Editions} />
