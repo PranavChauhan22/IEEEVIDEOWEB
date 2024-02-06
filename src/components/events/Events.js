@@ -37,12 +37,12 @@ function Events() {
       <div className="container">
         {data.data.map(
           (src) =>
-            src["Number"] == 1 && (
+            src["Number"] === 1 && (
               <div key={src["Entry ID"]} className="carde">
                 <img
                   src={`https://drive.google.com/thumbnail?id=${src["Event Poster(Id of Drive Link)"]}`}
                   className="eventcardimg"
-                />
+                 alt=""/>
                 <div className="box-shadow">
 
                 <div className="eventshorflex">
@@ -51,7 +51,7 @@ function Events() {
                 </div>
                 <div className="eventshoflex">
                   <div className={src["Event Name"].length>20?"eeventname":"eventname"}>{src["Event Name"]}</div>
-                  <a href={src["Social Media Link"]} target={"_blank"}>
+                  <a href={src["Social Media Link"]} target={"_blank"} rel="noreferrer">
                     <IoShareSocialSharp className="shareicon" />
                   </a>
                 </div>
